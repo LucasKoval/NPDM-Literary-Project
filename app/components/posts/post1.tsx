@@ -1,41 +1,54 @@
-import { Container, SkeletonBtn } from './posts-styles';
+import {
+   PostSection,
+   ParagraphContainer,
+   TitleContainer,
+   PhraseContainer,
+   Phrase,
+   Author,
+   MainTitle,
+   H2,
+   H3,
+   H4,
+   H5,
+   Paragraph,
+} from './posts-styles';
 
 export default function Post1() {
    return (
       <div>
-         <section id="page-1">
-            <div>
-               <p>me despierto</p>
-            </div>
+         <PostSection id="page-1">
+            <ParagraphContainer>
+               <Paragraph>me despierto</Paragraph>
+            </ParagraphContainer>
 
-            <div>
-               <p>se siente raro</p>
-            </div>
+            <ParagraphContainer>
+               <Paragraph>se siente raro</Paragraph>
+            </ParagraphContainer>
 
-            <div>
-               <p>como si es hoy</p>
-            </div>
+            <ParagraphContainer>
+               <Paragraph>como si es hoy</Paragraph>
+            </ParagraphContainer>
 
-            <div>
-               <p>
+            <ParagraphContainer>
+               <Paragraph>
                   estoy al palo, y comienzo a hacerme la primera paja del día
-               </p>
-            </div>
+               </Paragraph>
+            </ParagraphContainer>
 
-            <div>
-               <p>sin embargo, se siente como la quinta</p>
-            </div>
+            <ParagraphContainer>
+               <Paragraph>sin embargo, se siente como la quinta</Paragraph>
+            </ParagraphContainer>
 
-            <div>
-               <p>y entonces la abandono.</p>
-            </div>
+            <ParagraphContainer>
+               <Paragraph>y entonces la abandono.</Paragraph>
+            </ParagraphContainer>
 
-            <div>
-               <p>suspiro</p>
-            </div>
+            <ParagraphContainer>
+               <Paragraph>suspiro</Paragraph>
+            </ParagraphContainer>
 
-            <div>
-               <p>
+            <ParagraphContainer>
+               <Paragraph>
                   miro la hora y no está amaneciendo; soñé todo el día; me
                   levanto de un salto en la cocina me cruzo a Mamá, que me dice,
                   contenta, <em>son mis amigos, mirá </em> y vuelve al patio y,
@@ -51,246 +64,240 @@ export default function Post1() {
                   mientras recuerdo a mi Tía, la mejor, y rezo por mi Prima (que
                   por suerte tiene a su Padrino), y sé que esto, está dedicado a
                   Ellas.
-               </p>
-            </div>
+               </Paragraph>
+            </ParagraphContainer>
 
-            <div>
-               <p>
+            <ParagraphContainer>
+               <Paragraph>
                   armo el fino, y creo que es genial que mi Hermano me
                   desarrolle la página, y sé que es él: el original destinatario
                   de la frase
-               </p>
-            </div>
+               </Paragraph>
+            </ParagraphContainer>
 
-            <div>
-               <p>
+            <ParagraphContainer>
+               <Paragraph>
                   armo el mate y siento que mi Viejo es lo más, por bancarme y
                   proveerme, para que haga lo que tengo que hacer, pudiéndome
                   comprar discos y yerba y alfajores
-               </p>
-            </div>
+               </Paragraph>
+            </ParagraphContainer>
 
-            <div>
-               <p>
+            <ParagraphContainer>
+               <Paragraph>
                   me siento, le doy mecha, páh-páh, y recupero lo que Mamá me
                   dijo, que comience
                   <em> con un libro pequeño, sencillo y honesto</em>
-               </p>
-            </div>
+               </Paragraph>
+            </ParagraphContainer>
 
-            <div>
-               <p>
+            <ParagraphContainer>
+               <Paragraph>
                   me cebo unos tres bien verdes y espumosos, y celebro
                   exageradamente el sublime sabor de mi mate, y extraño tanto a
                   la primada, quisiera que pasemos juntos las fiestas, como
                   antes
-               </p>
-            </div>
+               </Paragraph>
+            </ParagraphContainer>
 
-            <div>
-               <p>
+            <ParagraphContainer>
+               <Paragraph>
                   abro la compu y siento detrás de mí, no al acecho, sino
                   acompañándome, a los míos, y tengo un amor y amistades que
                   aguardan por lo mío, y por eso hago esto
-               </p>
-            </div>
+               </Paragraph>
+            </ParagraphContainer>
 
-            <div>
-               <p>
+            <ParagraphContainer>
+               <Paragraph>
                   me pellizco, y entonces digo{' '}
                   <em>
                      {' '}
                      sueño, sueñoo, estoy soñando, estoy soñando, sueñooooooo…
                   </em>
-               </p>
-            </div>
+               </Paragraph>
+            </ParagraphContainer>
 
-            <div>
-               <p>
+            <ParagraphContainer>
+               <Paragraph>
                   digo <em> bueno </em> y respiro
-               </p>
-            </div>
+               </Paragraph>
+            </ParagraphContainer>
 
-            <div>
-               <p>
+            <ParagraphContainer>
+               <Paragraph>
                   doy <em> Gracias </em> y respiro
-               </p>
-            </div>
+               </Paragraph>
+            </ParagraphContainer>
 
-            <div>
-               <p>y escribo</p>
-            </div>
+            <ParagraphContainer>
+               <Paragraph>y escribo</Paragraph>
+            </ParagraphContainer>
 
-            <div>
-               <h1
+            <TitleContainer>
+               <MainTitle
                   className="main-title-1"
                   style={{ fontFamily: 'Impact, sans-serif' }}
                >
                   NUESTROS
-               </h1>
-               <h1
+               </MainTitle>
+               <MainTitle
                   className="main-title-2"
                   style={{ fontFamily: 'Impact, sans-serif' }}
                >
                   PADRES
-               </h1>
-               <h1
+               </MainTitle>
+               <MainTitle
                   className="main-title-3"
                   style={{ fontFamily: 'Impact, sans-serif' }}
                >
                   DEBEN
-               </h1>
+               </MainTitle>
 
-               <h1
+               <MainTitle
                   className="main-title-4"
                   style={{ fontFamily: 'Impact, sans-serif' }}
                >
                   MORIR
-               </h1>
-            </div>
-         </section>
+               </MainTitle>
+            </TitleContainer>
+         </PostSection>
 
-         <section id="page-2">
-            <div>
-               <p className="phrase-line">Los viejos ocultamos</p>
-            </div>
+         <PostSection id="page-2">
+            <PhraseContainer>
+               <Phrase className="phrase-line">Los viejos ocultamos</Phrase>
+               <Phrase className="phrase-line">
+                  nuestro deseo de morirnos
+               </Phrase>
+               <Author className="author-line">
+                  -EL CANTO DE AMOR A LA VIDA
+               </Author>
+            </PhraseContainer>
 
-            <div>
-               <p className="phrase-line">nuestro deseo de morirnos</p>
-            </div>
+            <TitleContainer>
+               <H2 style={{ fontFamily: 'Impact, sans-serif' }}>I</H2>
+            </TitleContainer>
+         </PostSection>
 
-            <div>
-               <p className="author-line">-EL CANTO DE AMOR A LA VIDA</p>
-            </div>
-
-            <div>
-               <h2 style={{ fontFamily: 'Impact, sans-serif' }}>I</h2>
-            </div>
-         </section>
-
-         <section id="page-3">
-            <div>
-               <p className="phrase-line">
+         <PostSection id="page-3">
+            <PhraseContainer>
+               <Phrase className="phrase-line">
                   He rezado para volver a encontrar mi infancia, y ha vuelto, y
                   siento que aún está dura como antes, y que no me ha servido de
                   nada envejecer.
-               </p>
-            </div>
+               </Phrase>
 
-            <div>
-               <p className="author-line">
+               <Author className="author-line">
                   -LOS CUADERNOS DE MALTE LAURIDS BRIGGE
-               </p>
-            </div>
+               </Author>
+            </PhraseContainer>
 
-            <div>
-               <p className="phrase-line">Figúrate que no eres más un hombre</p>
-            </div>
+            <PhraseContainer>
+               <Phrase className="phrase-line">
+                  Figúrate que no eres más un hombre
+               </Phrase>
+               <Author className="author-line">-ALMENDRA</Author>
+            </PhraseContainer>
 
-            <div>
-               <p className="author-line">-ALMENDRA</p>
-            </div>
+            <TitleContainer>
+               <H2 style={{ fontFamily: 'Impact, sans-serif' }}>NIÑEZ</H2>
+            </TitleContainer>
 
-            <div>
-               <h2 style={{ fontFamily: 'Impact, sans-serif' }}>NIÑEZ</h2>
-            </div>
-
-            <div>
-               <h2 style={{ fontFamily: 'Impact, sans-serif' }}>
+            <TitleContainer>
+               <H2 style={{ fontFamily: 'Impact, sans-serif' }}>
                   O EL LIBRO DE LA CONCEPCIÓN
-               </h2>
-            </div>
+               </H2>
+            </TitleContainer>
 
-            <div>
-               <h3 style={{ fontFamily: 'Impact, sans-serif' }}>(2004)</h3>
-            </div>
-         </section>
+            <TitleContainer>
+               <H3 style={{ fontFamily: 'Impact, sans-serif' }}>(2004)</H3>
+            </TitleContainer>
+         </PostSection>
 
-         <section id="page-4">
-            <div>
-               <h4 style={{ fontFamily: 'Impact, sans-serif' }}>
+         <PostSection id="page-4">
+            <TitleContainer>
+               <H4 style={{ fontFamily: 'Impact, sans-serif' }}>
                   COPULÆN SONETOS
-               </h4>
-               <h5 style={{ fontFamily: 'Impact, sans-serif' }}>(IN, OUT)</h5>
-            </div>
+               </H4>
+               <H5 style={{ fontFamily: 'Impact, sans-serif' }}>(IN, OUT)</H5>
+            </TitleContainer>
 
-            <div>
-               <h4 style={{ fontFamily: 'Impact, sans-serif' }}>
+            <TitleContainer>
+               <H4 style={{ fontFamily: 'Impact, sans-serif' }}>
                   DOS PARA EL VIAJE
-               </h4>
-               <h5 style={{ fontFamily: 'Impact, sans-serif' }}>
+               </H4>
+               <H5 style={{ fontFamily: 'Impact, sans-serif' }}>
                   (NAVE, PILOTO)
-               </h5>
-            </div>
+               </H5>
+            </TitleContainer>
 
-            <div>
-               <h4 style={{ fontFamily: 'Impact, sans-serif' }}>
+            <TitleContainer>
+               <H4 style={{ fontFamily: 'Impact, sans-serif' }}>
                   DIÁCORO ENTRE MUSAS <br /> Y DEMONIOS
-               </h4>
-               <h5 style={{ fontFamily: 'Impact, sans-serif' }}>
+               </H4>
+               <H5 style={{ fontFamily: 'Impact, sans-serif' }}>
                   (MUSAS, DEMONIOS, EPODOS)
-               </h5>
-            </div>
+               </H5>
+            </TitleContainer>
 
-            <div>
-               <h4 style={{ fontFamily: 'Impact, sans-serif' }}>
+            <TitleContainer>
+               <H4 style={{ fontFamily: 'Impact, sans-serif' }}>
                   CONTACTOS DE <br /> EMERGENCIA O <br /> TRAUMATOLOGÍA
-               </h4>
-               <h5 style={{ fontFamily: 'Impact, sans-serif' }}>
+               </H4>
+               <H5 style={{ fontFamily: 'Impact, sans-serif' }}>
                   (BRO, MÁ, PÁ)
-               </h5>
-            </div>
+               </H5>
+            </TitleContainer>
 
-            <div>
-               <h4 style={{ fontFamily: 'Impact, sans-serif' }}>IN</h4>
-            </div>
-         </section>
+            <TitleContainer>
+               <H4 style={{ fontFamily: 'Impact, sans-serif' }}>IN</H4>
+            </TitleContainer>
+         </PostSection>
 
-         <section id="page-5">
-            <div>
-               <p className="phrase-line">Para abandonarme y renacer</p>
-            </div>
+         <PostSection id="page-5">
+            <PhraseContainer>
+               <Phrase className="phrase-line">
+                  Para abandonarme y renacer
+               </Phrase>
+               <Author className="author-line">-AMOR AMARILLO</Author>
+            </PhraseContainer>
 
-            <div>
-               <p className="author-line">-AMOR AMARILLO</p>
-            </div>
-
-            <div>
-               <p>
+            <ParagraphContainer>
+               <Paragraph>
                   quiero tenerte desde el primer verso tranqui, relajate ya
                   estás adentro no importa si no se te para el Alma dejála
                   muerta, pero, porfa, no salgas
-               </p>
-            </div>
+               </Paragraph>
+            </ParagraphContainer>
 
-            <div>
-               <p>
+            <ParagraphContainer>
+               <Paragraph>
                   mi nombre es Obra (¿mi nombre sobra?) y, sí, vos me penetrás a
                   mí pero yo voy a hacerte parir
-               </p>
-            </div>
+               </Paragraph>
+            </ParagraphContainer>
 
-            <div>
-               <p>
+            <ParagraphContainer>
+               <Paragraph>
                   mi Madre la Poesía; mi Padre, el Creador fiestón de la palabra
                   expresa y explícita mete-saca, todo el fakin día y olnailong
-               </p>
-            </div>
+               </Paragraph>
+            </ParagraphContainer>
 
-            <div>
-               <p>
+            <ParagraphContainer>
+               <Paragraph>
                   sé amable, cursi, solemne y simpaticón toda honesta locura
                   será lícita y no te olvides: estamos haciendo el Amor.
-               </p>
-            </div>
+               </Paragraph>
+            </ParagraphContainer>
 
-            <div>
-               <p>
+            <ParagraphContainer>
+               <Paragraph>
                   NAVE se libera en (cuenta regresiva programada para las 04:00
                   del 4/04/24)
-               </p>
-            </div>
-         </section>
+               </Paragraph>
+            </ParagraphContainer>
+         </PostSection>
       </div>
    );
 }
