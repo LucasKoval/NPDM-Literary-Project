@@ -2,7 +2,15 @@
 
 import styled from 'styled-components';
 
-export const Section = styled.section``;
+export const PostContainer = styled.section`
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 50%;
+`;
+
+export const PostSection = styled.section``;
 
 export const ParagraphContainer = styled.div``;
 
@@ -23,3 +31,5 @@ export const H3 = styled.h3``;
 export const H4 = styled.h4``;
 
 export const H5 = styled.h5``;
+
+export const Paragraph = styled.p``;
