@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 
 const CountdownTimer: React.FC = () => {
-   const targetDate = new Date('2024-04-04T04:00:00').getTime();
+   const targetDate = new Date('2024-04-07T06:00:00').getTime();
    const [timeLeft, setTimeLeft] = useState(targetDate - Date.now());
 
    useEffect(() => {
@@ -32,8 +32,7 @@ const CountdownTimer: React.FC = () => {
 
    return (
       <div>
-         <h1>Countdown Timer</h1>
-         <p>{formatTime(timeLeft)}</p>
+         <h1>BRO se libera en {formatTime(timeLeft)}</h1>
       </div>
    );
 };
