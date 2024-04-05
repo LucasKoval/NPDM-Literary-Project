@@ -5,9 +5,9 @@ import CountdownTimer from '@/app/components/countdown-timer';
 export default function Home() {
    return (
       <main id="project-container">
-         <TempLayout />
-         {/* <Posts />
-         <CountdownTimer />*/}
+         {/* <TempLayout /> */}
+         <Posts />
+         <CountdownTimer />
       </main>
    );
 }
