@@ -139,7 +139,11 @@ export default function Post1() {
                   nada envejecer.
                </Phrase>
 
-               <Author>-LOS CUADERNOS DE MALTE LAURIDS BRIGGE</Author>
+               <Author>
+                  -LOS CUADERNOS DE
+                  <Break className="mobile" />
+                  MALTE LAURIDS BRIGGE
+               </Author>
             </PhraseContainer>
 
             <Separator />
@@ -189,11 +193,11 @@ export default function Post1() {
 
             <TitleContainer>
                <H2>
-                  CONTACTOS DE
+                  CONTACTOS DE EMERGENCIA
                   <Break />
-                  EMERGENCIA O
+                  ( O TRAUMA-
                   <Break />
-                  TRAUMATOLOGÍA
+                  TOLOGÍA )
                </H2>
                <H5>( BRO, MÁ, PÁ )</H5>
             </TitleContainer>

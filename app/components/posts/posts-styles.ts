@@ -83,7 +83,7 @@ export const MainTitle = styled.h1`
          font-size: 77px;
       }
       &.main-title-2 {
-         font-size: 106px;
+         font-size: 107px;
       }
       &.main-title-3 {
          font-size: 128px;
@@ -98,11 +98,25 @@ export const H2 = styled.h2`
    font-family: 'Impact', sans-serif;
    font-size: 100px;
 
+   &.mobile {
+      display: none;
+   }
+   &.desktop {
+      display: block;
+   }
+
    @media only screen and ${device.sm} {
-      font-size: 50px;
+      font-size: 54px;
 
       &.big {
-         font-size: 56px;
+         font-size: 58px;
+      }
+
+      &.mobile {
+         display: block;
+      }
+      &.desktop {
+         display: none;
       }
    }
 `;
