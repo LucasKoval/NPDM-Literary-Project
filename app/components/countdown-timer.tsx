@@ -5,7 +5,7 @@ import { CountdownSection, CountdownTitle } from './countdown-timer-styles';
 import { Separator, Break } from './posts/posts-styles';
 
 const CountdownTimer: React.FC = () => {
-   const targetDate = new Date('2024-04-07T06:00:00').getTime();
+   const targetDate = new Date('2024-04-11T04:00:00').getTime();
    const [timeLeft, setTimeLeft] = useState(targetDate - Date.now());
 
    useEffect(() => {
