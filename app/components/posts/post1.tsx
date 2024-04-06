@@ -112,12 +112,10 @@ export default function Post1() {
                <MainTitle className="main-title-3">DEBEN</MainTitle>
                <MainTitle className="main-title-4">MORIR</MainTitle>
             </TitleContainer>
-         </PostSection>
 
-         <Separator />
-         <Separator />
+            <Separator />
+            <Separator />
 
-         <PostSection id="page-2">
             <PhraseContainer>
                <Phrase>Los viejos ocultamos nuestro deseo de morirnos</Phrase>
 
@@ -130,12 +128,10 @@ export default function Post1() {
             <TitleContainer>
                <H2>I</H2>
             </TitleContainer>
-         </PostSection>
 
-         <Separator />
-         <Separator />
+            <Separator />
+            <Separator />
 
-         <PostSection id="page-3">
             <PhraseContainer>
                <Phrase>
                   He rezado para volver a encontrar mi infancia, y ha vuelto, y
@@ -159,13 +155,11 @@ export default function Post1() {
             <Separator />
 
             <TitleContainer>
-               <H3>(2004)</H3>
+               <H3>( 2004 )</H3>
             </TitleContainer>
-         </PostSection>
 
-         <Separator />
+            <Separator />
 
-         <PostSection id="page-4">
             <TitleContainer>
                <H5>presenta</H5>
             </TitleContainer>
@@ -174,7 +168,7 @@ export default function Post1() {
 
             <TitleContainer>
                <H2>COPULÆN SONETOS</H2>
-               <H5>(IN, OUT)</H5>
+               <H5>( IN, OUT )</H5>
             </TitleContainer>
 
             <Separator />
@@ -182,9 +176,12 @@ export default function Post1() {
 
             <TitleContainer>
                <H2>
-                  DIÁCORO ENTRE MUSAS <Break /> Y DEMONIOS
+                  DIÁCORO
+                  <Break />
+                  ( ENTRE MUSAS
+                  <Break />Y DEMONIOS )
                </H2>
-               <H5>(MUSAS, DEMONIOS, EPODOS)</H5>
+               <H5>( MUSAS, DEMONIOS, EPODOS )</H5>
             </TitleContainer>
 
             <Separator />
@@ -192,9 +189,13 @@ export default function Post1() {
 
             <TitleContainer>
                <H2>
-                  CONTACTOS DE <Break /> EMERGENCIA O <Break /> TRAUMATOLOGÍA
+                  CONTACTOS DE
+                  <Break />
+                  EMERGENCIA O
+                  <Break />
+                  TRAUMATOLOGÍA
                </H2>
-               <H5>(BRO, MÁ, PÁ)</H5>
+               <H5>( BRO, MÁ, PÁ )</H5>
             </TitleContainer>
 
             <Separator />
@@ -202,17 +203,15 @@ export default function Post1() {
 
             <TitleContainer>
                <H2>DOS PARA EL VIAJE</H2>
-               <H5>(NAVE, PILOTO)</H5>
+               <H5>( NAVE, PILOTO )</H5>
             </TitleContainer>
 
             <Separator />
             <Separator />
 
             <PhraseContainer>
-               <Phrase className="phrase-line">
-                  Figúrate que no eres más un hombre
-               </Phrase>
-               <Author className="author-line">-ALMENDRA</Author>
+               <Phrase>Figúrate que no eres más un hombre</Phrase>
+               <Author>-ALMENDRA</Author>
             </PhraseContainer>
 
             <Separator />
@@ -221,12 +220,10 @@ export default function Post1() {
             <TitleContainer>
                <H4>IN</H4>
             </TitleContainer>
-         </PostSection>
 
-         <Separator />
-         <Separator />
+            <Separator />
+            <Separator />
 
-         <PostSection id="page-5">
             <PhraseContainer>
                <Phrase>
                   Para abandonarme
@@ -252,7 +249,7 @@ export default function Post1() {
             <Separator className="small" />
 
             <ParagraphContainer>
-               <Paragraph className="on-center">
+               <Paragraph className="align-center">
                   mi nombre es Obra
                   <Break />
                   (¿mi nombre sobra?)
@@ -277,7 +274,7 @@ export default function Post1() {
 
             <Separator className="small" />
 
-            <ParagraphContainer className="on-center">
+            <ParagraphContainer className="align-center">
                <Paragraph>
                   sé amable, cursi, solemne y simpaticón
                   <Break />
@@ -287,6 +284,139 @@ export default function Post1() {
             </ParagraphContainer>
 
             <Separator />
+            <Separator />
+         </PostSection>
+
+         <PostSection id="page-2">
+            <TitleContainer>
+               <H4>NAVE</H4>
+            </TitleContainer>
+
+            <Separator />
+            <Separator />
+
+            <PhraseContainer>
+               <Phrase>
+                  Este no es un lugar para dar paseos por placer
+                  <Break />
+                  La Zona quiere ser respetada, sino te castigará.
+               </Phrase>
+               <Author>-STALKER</Author>
+            </PhraseContainer>
+
+            <Separator />
+            <Separator />
+
+            <ParagraphContainer className="on-right-side">
+               <Paragraph className="align-right">
+                  mi piloto me maneja
+                  <Break />
+                  -yo lo peleo cada vez que puedo, pero, al final, obedezco-
+                  <Break />y lo llevo, adonde quiera ir
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-right-side">
+               <Paragraph className="align-right">
+                  soy su nave
+                  <Break />
+                  sensible
+                  <Break />
+                  animal, impersonal
+                  <Break />
+                  terrible
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-right-side">
+               <Paragraph className="align-right">
+                  él se enoja, mucho, conmigo
+                  <Break />
+                  reniega de mis apetitos, de mi sed
+                  <Break />
+                  y de mi concepto de combustible
+                  <Break />y yo, pedigüeña, lo enloquezco
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-right-side">
+               <Paragraph className="align-right">
+                  igual, me ama
+                  <Break />
+                  y yo también a él
+                  <Break />
+                  y es mejor así
+                  <Break />
+                  al fin y al cabo, somos Uno
+                  <Break />
+                  ¡hasta que un triste día!
+                  <Break />
+                  mis motores ya no enciendan
+                  <Break />
+                  y, entonces, mi piloto, tras un merecido descanso
+                  <Break />
+                  me reemplace.
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator />
+            <Separator />
+         </PostSection>
+
+         <PostSection id="page-3">
+            <TitleContainer>
+               <H4>MUSAS</H4>
+            </TitleContainer>
+
+            <Separator />
+            <Separator />
+
+            <PhraseContainer>
+               <Phrase>over the rainbow, he is crazy</Phrase>
+               <Author>-THE WALL</Author>
+            </PhraseContainer>
+
+            <Separator />
+            <Separator />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
+                  ¡canten conmigo, comadres!
+                  <Break />
+                  musas -y no madres- de Sion
+                  <Break />
+                  canten conmigo la canción
+                  <Break />
+                  y ábranle paso al Héroe
+                  <Break />
+                  que la espera ya es llegada
+                  <Break />y nuestro canto, recepción
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
+                  ¡ya és! porque será, ya és
+                  <Break />
+                  ¿entendés, dévil demente?
+                  <Break />
+                  y preciso saber: ¿si Él
+                  <Break />
+                  de mis manos se cayera
+                  <Break />
+                  tenderás o no, demonio
+                  <Break />
+                  tu garra en su captura?
+               </Paragraph>
+            </ParagraphContainer>
          </PostSection>
       </>
    );

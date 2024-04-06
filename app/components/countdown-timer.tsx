@@ -33,11 +33,16 @@ const CountdownTimer: React.FC = () => {
    };
 
    return (
-      <CountdownSection>
-         <CountdownTitle>
-            BRO se libera en <Break className="mobile" /> {formatTime(timeLeft)}
-         </CountdownTitle>
-      </CountdownSection>
+      <>
+         <Separator />
+
+         <CountdownSection>
+            <CountdownTitle>
+               BRO se libera en <Break className="mobile" />{' '}
+               {formatTime(timeLeft)}
+            </CountdownTitle>
+         </CountdownSection>
+      </>
    );
 };
 
