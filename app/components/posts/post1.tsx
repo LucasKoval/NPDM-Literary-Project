@@ -126,7 +126,7 @@ export default function Post1() {
             <Separator />
 
             <TitleContainer>
-               <H2>I</H2>
+               <H2 className="big">I</H2>
             </TitleContainer>
 
             <Separator />
@@ -289,7 +289,7 @@ export default function Post1() {
 
          <PostSection id="page-2">
             <TitleContainer>
-               <H4>NAVE</H4>
+               <H4 className="big">NAVE</H4>
             </TitleContainer>
 
             <Separator />
@@ -371,7 +371,7 @@ export default function Post1() {
 
          <PostSection id="page-3">
             <TitleContainer>
-               <H4>MUSAS</H4>
+               <H4 className="big">MUSAS</H4>
             </TitleContainer>
 
             <Separator />
