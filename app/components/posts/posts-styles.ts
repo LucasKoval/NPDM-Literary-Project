@@ -151,8 +151,8 @@ export const H5 = styled.h5`
 `;
 
 export const Paragraph = styled.p`
-   font-size: 16px;
-   line-height: 2rem;
+   font-size: 17px;
+   line-height: 2.2rem;
    text-align: justify;
 
    &.align-left {
@@ -166,7 +166,7 @@ export const Paragraph = styled.p`
    }
 
    @media only screen and ${device.sm} {
-      font-size: 17px;
+      font-size: 18px;
    }
 `;
 

@@ -25,4 +25,5 @@ main {
    align-items: center;
    min-height: 100vh;
    padding: 1rem 0;
+   padding-top: 1.5rem;
 }
