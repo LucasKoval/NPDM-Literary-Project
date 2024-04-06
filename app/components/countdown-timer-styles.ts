@@ -10,7 +10,7 @@ export const CountdownSection = styled.section`
 `;
 
 export const CountdownTitle = styled.h3`
-   font-family: 'Impact', sans-serif;
-   font-size: 30px;
+   font-size: 28px;
+   font-weight: bold;
    padding: 2rem;
 `;

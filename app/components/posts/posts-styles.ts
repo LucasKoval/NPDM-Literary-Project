@@ -73,6 +73,21 @@ export const MainTitle = styled.h1`
    &.main-title-4 {
       font-size: 132px;
    }
+
+   @media only screen and ${device.sm} {
+      &.main-title-1 {
+         font-size: 75px;
+      }
+      &.main-title-2 {
+         font-size: 106px;
+      }
+      &.main-title-3 {
+         font-size: 132px;
+      }
+      &.main-title-4 {
+         font-size: 126px;
+      }
+   }
 `;
 
 export const H2 = styled.h2`
@@ -112,8 +127,14 @@ export const Paragraph = styled.p`
    line-height: 2rem;
    text-align: justify;
 
-   &.on-center {
+   &.align-left {
+      text-align: start;
+   }
+   &.align-center {
       text-align: center;
+   }
+   &.align-right {
+      text-align: end;
    }
 `;
 
@@ -124,10 +145,6 @@ export const Separator = styled.br`
 
    &.small {
       margin: 1rem 0;
-   }
-
-   @media only screen and ${device.sm} {
-      margin: 3rem 0;
    }
 `;
 
