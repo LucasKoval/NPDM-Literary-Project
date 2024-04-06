@@ -50,6 +50,10 @@ export const PhraseContainer = styled.div`
 export const Phrase = styled.p`
    font-size: 26px;
    font-weight: bold;
+
+   @media only screen and ${device.sm} {
+      font-size: 24px;
+   }
 `;
 
 export const Author = styled.p`
@@ -76,13 +80,13 @@ export const MainTitle = styled.h1`
 
    @media only screen and ${device.sm} {
       &.main-title-1 {
-         font-size: 75px;
+         font-size: 77px;
       }
       &.main-title-2 {
          font-size: 106px;
       }
       &.main-title-3 {
-         font-size: 132px;
+         font-size: 128px;
       }
       &.main-title-4 {
          font-size: 126px;
@@ -96,6 +100,10 @@ export const H2 = styled.h2`
 
    @media only screen and ${device.sm} {
       font-size: 50px;
+
+      &.big {
+         font-size: 56px;
+      }
    }
 `;
 
@@ -111,6 +119,12 @@ export const H3 = styled.h3`
 export const H4 = styled.h4`
    font-family: 'Impact', sans-serif;
    font-size: 50px;
+
+   @media only screen and ${device.sm} {
+      &.big {
+         font-size: 56px;
+      }
+   }
 `;
 
 export const H5 = styled.h5`
@@ -135,6 +149,10 @@ export const Paragraph = styled.p`
    }
    &.align-right {
       text-align: end;
+   }
+
+   @media only screen and ${device.sm} {
+      font-size: 17px;
    }
 `;
 
