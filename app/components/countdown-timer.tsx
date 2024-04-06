@@ -1,6 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { CountdownSection, CountdownTitle } from './countdown-timer-styles';
+import { Separator, Break } from './posts/posts-styles';
 
 const CountdownTimer: React.FC = () => {
    const targetDate = new Date('2024-04-07T06:00:00').getTime();
@@ -31,9 +33,11 @@ const CountdownTimer: React.FC = () => {
    };
 
    return (
-      <div>
-         <h1>BRO se libera en {formatTime(timeLeft)}</h1>
-      </div>
+      <CountdownSection>
+         <CountdownTitle>
+            BRO se libera en <Break className="mobile" /> {formatTime(timeLeft)}
+         </CountdownTitle>
+      </CountdownSection>
    );
 };
 
