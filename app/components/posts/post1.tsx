@@ -421,6 +421,9 @@ export default function Post1() {
                   tu garra en su captura?
                </Paragraph>
             </ParagraphContainer>
+
+            <Separator />
+            <Separator />
          </PostSection>
       </>
    );
