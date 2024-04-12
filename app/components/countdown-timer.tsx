@@ -2,10 +2,10 @@
 
 import { useState, useEffect } from 'react';
 import { CountdownSection, CountdownTitle } from './countdown-timer-styles';
-import { Separator, Break } from './posts/posts-styles';
+import { Break } from './posts/posts-styles';
 
 const CountdownTimer: React.FC = () => {
-   const targetDate = new Date('2024-04-11T04:00:00').getTime();
+   const targetDate = new Date('2024-04-14T04:00:00').getTime();
    const [timeLeft, setTimeLeft] = useState(targetDate - Date.now());
 
    useEffect(() => {
@@ -33,16 +33,12 @@ const CountdownTimer: React.FC = () => {
    };
 
    return (
-      <>
-         <Separator />
-
-         <CountdownSection>
-            <CountdownTitle>
-               BRO se libera en <Break className="mobile" />{' '}
-               {formatTime(timeLeft)}
-            </CountdownTitle>
-         </CountdownSection>
-      </>
+      <CountdownSection>
+         <CountdownTitle>
+            DEMONIOS se libera en <Break className="mobile" />{' '}
+            {formatTime(timeLeft)}
+         </CountdownTitle>
+      </CountdownSection>
    );
 };
 
