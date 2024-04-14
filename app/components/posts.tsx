@@ -10,6 +10,7 @@ export default function Posts() {
       <PostContainer>
          <Post1 />
          <Post2 />
+         <Post3 />
       </PostContainer>
    );
 }
