@@ -178,6 +178,16 @@ export const Separator = styled.br`
    &.small {
       margin: 1rem 0;
    }
+
+   &.mobile {
+      display: none;
+   }
+
+   @media only screen and ${device.sm} {
+      &.mobile {
+         display: block;
+      }
+   }
 `;
 
 export const Break = styled.br`

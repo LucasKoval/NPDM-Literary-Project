@@ -25,6 +25,7 @@ export default function Post3() {
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
 
             <PhraseContainer>
                <Phrase>God loves his children</Phrase>
@@ -33,6 +34,7 @@ export default function Post3() {
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-right-side">
                <Paragraph className="align-right">
@@ -74,6 +76,7 @@ export default function Post3() {
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
          </PostSection>
       </>
    );
