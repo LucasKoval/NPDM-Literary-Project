@@ -25,6 +25,7 @@ export default function Post2() {
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
 
             <PhraseContainer>
                <Phrase>nadie pudo ver que el Tiempo era una herida</Phrase>
@@ -33,6 +34,7 @@ export default function Post2() {
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer>
                <Paragraph className="align-center">
@@ -100,6 +102,7 @@ export default function Post2() {
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
          </PostSection>
       </>
    );

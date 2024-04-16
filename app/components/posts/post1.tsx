@@ -105,6 +105,7 @@ export default function Post1() {
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
 
             <TitleContainer>
                <MainTitle className="main-title-1">NUESTROS</MainTitle>
@@ -115,6 +116,7 @@ export default function Post1() {
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
 
             <PhraseContainer>
                <Phrase>Los viejos ocultamos nuestro deseo de morirnos</Phrase>
@@ -124,6 +126,7 @@ export default function Post1() {
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
 
             <TitleContainer>
                <H2 className="big">I</H2>
@@ -131,6 +134,7 @@ export default function Post1() {
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
 
             <PhraseContainer>
                <Phrase>
@@ -148,6 +152,7 @@ export default function Post1() {
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
 
             <TitleContainer>
                <H2>
@@ -163,12 +168,14 @@ export default function Post1() {
             </TitleContainer>
 
             <Separator />
+            <Separator className="mobile" />
 
             <TitleContainer>
                <H5>presenta</H5>
             </TitleContainer>
 
             <Separator />
+            <Separator className="mobile" />
 
             <TitleContainer>
                <H2>COPULÆN SONETOS</H2>
@@ -177,6 +184,7 @@ export default function Post1() {
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
 
             <TitleContainer>
                <H2>
@@ -190,6 +198,7 @@ export default function Post1() {
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
 
             <TitleContainer>
                <H2>
@@ -204,6 +213,7 @@ export default function Post1() {
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
 
             <TitleContainer>
                <H2>DOS PARA EL VIAJE</H2>
@@ -212,6 +222,7 @@ export default function Post1() {
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
 
             <PhraseContainer>
                <Phrase>Figúrate que no eres más un hombre</Phrase>
@@ -220,6 +231,7 @@ export default function Post1() {
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
 
             <TitleContainer>
                <H4>IN</H4>
@@ -227,6 +239,7 @@ export default function Post1() {
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
 
             <PhraseContainer>
                <Phrase>
@@ -237,6 +250,8 @@ export default function Post1() {
             </PhraseContainer>
 
             <Separator />
+            <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer>
                <Paragraph>
@@ -289,6 +304,7 @@ export default function Post1() {
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
          </PostSection>
 
          <PostSection id="page-2">
@@ -298,6 +314,7 @@ export default function Post1() {
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
 
             <PhraseContainer>
                <Phrase>
@@ -310,6 +327,7 @@ export default function Post1() {
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-right-side">
                <Paragraph className="align-right">
@@ -371,6 +389,7 @@ export default function Post1() {
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
          </PostSection>
 
          <PostSection id="page-3">
@@ -380,6 +399,7 @@ export default function Post1() {
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
 
             <PhraseContainer>
                <Phrase>over the rainbow, he is crazy</Phrase>
@@ -388,6 +408,7 @@ export default function Post1() {
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
@@ -424,6 +445,7 @@ export default function Post1() {
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
          </PostSection>
       </>
    );
