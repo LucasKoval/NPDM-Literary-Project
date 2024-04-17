@@ -20,54 +20,62 @@ export default function Post4() {
       <>
          <PostSection id="page-6">
             <TitleContainer>
-               <H4 className="big"></H4>
+               <H4 className="big">MÁ</H4>
             </TitleContainer>
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
 
             <PhraseContainer>
-               <Phrase></Phrase>
-               <Author></Author>
+               <Phrase>hacia el abismo</Phrase>
+               <Phrase>de sed que no calma el agua</Phrase>
+               <Phrase>ni las lágrimas</Phrase>
+               <Author>-LA ESQUINA DEL INFINITO</Author>
             </PhraseContainer>
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer>
                <Paragraph className="align-center">
+                  yo estaba sentado en el mismo sofá
                   <Break />
+                  Mamá estaba dolida, iba y venía
                   <Break />
+                  sentí que tenía que ayudarla
+                  <Break />
+                  así que pensé
                   <Break />
                </Paragraph>
             </ParagraphContainer>
 
-            <ParagraphContainer>
-               <Paragraph className="align-center">
-                  <Break />
-                  <Break />
-                  <Break />
-               </Paragraph>
-            </ParagraphContainer>
+            <Separator className="small" />
 
             <ParagraphContainer>
                <Paragraph className="align-center">
+                  ni me acuerdo qué le dije, pero
                   <Break />
+                  sí entendí, para siempre
                   <Break />
-                  <Break />
+                  que esa vez, le dije una verdad
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator className="small" />
+
             <ParagraphContainer>
                <Paragraph className="align-center">
+                  la certeza que tengo de ello
                   <Break />
-                  <Break />
-                  <Break />
+                  es el sopapo que me dio.
                </Paragraph>
             </ParagraphContainer>
 
             <Separator />
             <Separator />
+            <Separator className="mobile" />
          </PostSection>
       </>
    );
