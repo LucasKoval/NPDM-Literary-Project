@@ -41,13 +41,25 @@ export default function Post4() {
             <ParagraphContainer>
                <Paragraph className="align-center">
                   yo estaba sentado en el mismo sofá
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer>
+               <Paragraph className="align-center">
                   Mamá estaba dolida, iba y venía
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer>
+               <Paragraph className="align-center">
                   sentí que tenía que ayudarla
                   <Break />
                   así que pensé
-                  <Break />
+                  <Break />y hablé
                </Paragraph>
             </ParagraphContainer>
 
@@ -73,6 +85,7 @@ export default function Post4() {
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
             <Separator />
             <Separator />
             <Separator className="mobile" />

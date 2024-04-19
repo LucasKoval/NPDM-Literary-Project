@@ -24,85 +24,105 @@ export default function Post1() {
             </ParagraphContainer>
 
             <ParagraphContainer className="on-right-side">
-               <Paragraph>se siente raro</Paragraph>
+               <Paragraph>se siente raro, como si</Paragraph>
             </ParagraphContainer>
 
             <ParagraphContainer>
-               <Paragraph>como si es hoy</Paragraph>
+               <Paragraph>es hoy</Paragraph>
             </ParagraphContainer>
 
             <ParagraphContainer className="on-left-side">
                <Paragraph>
-                  estoy al palo, y comienzo a hacerme la primera paja del día
+                  estoy al palo, y comienzo a echarme la primera paja del día
                </Paragraph>
             </ParagraphContainer>
 
             <ParagraphContainer className="on-left-side">
-               <Paragraph>sin embargo, se siente como la quinta</Paragraph>
+               <Paragraph>sin embargo, se siente como la cuarta</Paragraph>
             </ParagraphContainer>
 
             <ParagraphContainer className="on-left-side">
-               <Paragraph>y entonces la abandono.</Paragraph>
+               <Paragraph>entonces la abandono</Paragraph>
             </ParagraphContainer>
 
             <ParagraphContainer className="on-left-side">
-               <Paragraph>suspiro</Paragraph>
+               <Paragraph>miro la hora y suspiro</Paragraph>
+            </ParagraphContainer>
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph>me levanto y voy al baño</Paragraph>
             </ParagraphContainer>
 
             <ParagraphContainer className="on-left-side">
                <Paragraph>
-                  miro la hora y no está amaneciendo; soñé todo el día; me
-                  levanto de un salto
+                  al pasar por la puerta al patio, Mamá me llama, me dice{' '}
+                  <em>mirá, son mis amigos</em>
                   <Break />
-                  en la cocina me cruzo a Mamá, que me dice, contenta,{' '}
-                  <em>son mis amigos, mirá </em> y vuelve al patio y, eufórica,
-                  saluda, hacia arriba, a un helicóptero que pasa
-                  <em> bueno</em> le digo alegremente, y voy al baño, meo, me
-                  aseo y me veo al espejo salgo y le pregunto a Mamá si quiere
-                  que cocine y me dice <em> yo estoy re llena </em> sigo
-                  entonces sin detenerme hasta mi pieza mientras le contesto
-                  <em> yo también voy a hacer mis cosas </em> agrego, y ella
-                  <em> hacé tus cosas feliz, pero ordená tu pieza </em> elijo la
-                  primera tríada; está nublado: va
-                  <em> Animals/Disintigration/Ok Computer</em>
+                  saluda a la avioneta que sobrevuela publicitando al circo que
+                  vino a la ciudad
                   <Break />
+                  <em>bueno, saludos</em> le digo, alegremente; entro al baño,
+                  llaveo y me veo al espejo
+                  <Break />
+                  meo, me cepillo los dientes, me lavo la cara y, ahora sí, me
+                  miro en el espejo
+                  <Break />
+                  salgo y le pregunto a Mamá si quiere que cocine, y me dice{' '}
+                  <em>yo estoy re llena</em>
+                  <Break />
+                  <em>yo también</em> le digo y agrego que{' '}
+                  <em>voy a hacer mis cosas</em>; ella me dice <em>perfecto</em>
+                  <Break />
+                  <em>hacé feliz lo tuyo, pero ordená tu pieza</em>; enciendo mi
+                  equipo; suspiro otra vez
+                  <Break />
+                  pienso el primer triángulo, y va:{' '}
+                  <em>Artaud/Oktubre/Despedazado por mil partes</em>
+               </Paragraph>
+            </ParagraphContainer>
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph>
                   pongo el agua, mientras recuerdo a mi Tía, la mejor, y rezo
-                  por mi Prima (que por suerte tiene a su Padrino), y sé que
-                  esto, está dedicado a Ellas
+                  por mi Prima, la menor (que por suerte tiene a su Padrino), y
+                  sé que esto, está dedicado a Ellas
                   <Break />
-                  armo el fino, mientras pienso en cuan genial es que mi Hermano
+                  armo el fino, pensando en qué genial es que mi Hermano
                   desarrolle la página, y sé, que es él: el original
-                  destinatario de la frase
+                  destinatario de esta frase que ya casi está por salir
                   <Break />
-                  armo el mate y siento que mi Viejo es mi Héroe, por bancarme y
-                  proveerme, para que haga lo que tengo que hacer, pudiéndome
-                  comprar discos y yerba y alfajores
+                  armo el mate, agradeciendo a mi Viejo, que se sacrifica para
+                  que yo pueda hacer lo que amo y nada más, pudiéndome comprar
+                  discos y yerba y alfajores...
                   <Break />
-                  me siento, le doy mecha, páh-páh, y recupero lo que Mamá me
-                  dijo, que comience
-                  <em> con un libro pequeño, sencillo y honesto</em>
+                  voy a la ventana y fumo un par de secas, mientras rememoro el
+                  consejo que me dio Mamá una vez: que empiece{' '}
+                  <em>con un libro pequeño, sencillo y honesto</em>
                   <Break />
-                  me cebo unos bien verdes y espumosos, y celebro exageradamente
-                  el sublime sabor de mi mate, y extraño tanto a la primada
-                  ¡quiero tanto que pasemos juntos las fiestas, como antes!
+                  me tomo un mate bien verde y espumoso y celebro exageradamente
+                  su sabor; y re extraño a la Primada: quiero que pasemos juntos
+                  las fiestas, como antes
                   <Break />
-                  abro la compu y siento a mi alrededor a los míos, y tengo un
-                  amor y amistades que aguardan por lo mío, mientras me cuidan,
-                  y es para homenajear eso, que hago esto
+                  abro la compu y siento a mi lado a mis ancestros, y tengo una
+                  compañera que amo y tengo mis amistades que aguardan por lo
+                  mío, mientras cuidan de mí,
                   <Break />
-                  me pellizco, y entonces digo en voz alta
+                  y yo me ausento de todos, y siento que todo lo que callo es
+                  para luego escribirlo, porque si ya se lo digo a quien tengo
+                  que decírselo, ¿para qué escribirlo?
+                  <Break />
+                  entonces me pellizco y me siento vivo, y digo en voz alta
                   <em>
-                     {' '}
-                     sueño, sueñoo, estoy soñando, estoy soñando, sueñooooooo…
+                     sueño, sueñoo, estoy soñando, estoy soñandooo,
+                     sueñoooooooo, esto es un sueño, estoy soñando
                   </em>
-                  <Break />
-                  digo <em> bueno </em> y respiro
-                  <Break />
-                  doy <em> Gracias </em> y respiro
+                  <Break />y digo <em>bueno...</em> y suspiro
+                  <Break />y doy <em>Gracias</em>, y respiro
                   <Break />y escribo
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
             <Separator />
             <Separator />
             <Separator className="mobile" />
@@ -116,14 +136,15 @@ export default function Post1() {
 
             <Separator />
             <Separator />
+            <Separator />
             <Separator className="mobile" />
 
             <PhraseContainer>
-               <Phrase>Los viejos ocultamos nuestro deseo de morirnos</Phrase>
-
+               <Phrase>los viejos ocultamos nuestro deseo de morirnos</Phrase>
                <Author>-EL CANTO DE AMOR A LA VIDA</Author>
             </PhraseContainer>
 
+            <Separator />
             <Separator />
             <Separator />
             <Separator className="mobile" />
@@ -142,7 +163,6 @@ export default function Post1() {
                   siento que aún está dura como antes, y que no me ha servido de
                   nada envejecer.
                </Phrase>
-
                <Author>
                   -LOS CUADERNOS DE
                   <Break className="mobile" />
@@ -152,21 +172,24 @@ export default function Post1() {
 
             <Separator />
             <Separator />
+            <Separator />
             <Separator className="mobile" />
 
             <TitleContainer>
                <H2>
-                  NIÑEZ <Break /> O EL LIBRO <Break /> DE LA <Break />{' '}
-                  CONCEPCIÓN
+                  NIÑEZ <Break /> O EL LIBRO DE LA <Break /> CONCEPCIÓN
                </H2>
             </TitleContainer>
 
-            <Separator />
+            <Separator className="small" />
+            <Separator className="small" />
+            <Separator className="small" />
 
             <TitleContainer>
                <H3>( 2004 )</H3>
             </TitleContainer>
 
+            <Separator />
             <Separator />
             <Separator className="mobile" />
 
@@ -174,6 +197,7 @@ export default function Post1() {
                <H5>presenta</H5>
             </TitleContainer>
 
+            <Separator />
             <Separator />
             <Separator className="mobile" />
 
@@ -191,7 +215,7 @@ export default function Post1() {
                   DIÁCORO
                   <Break />
                   ( ENTRE MUSAS
-                  <Break />Y DEMONIOS )
+                  <Break className="mobile" /> Y DEMONIOS )
                </H2>
                <H5>( MUSAS, DEMONIOS, EPODOS )</H5>
             </TitleContainer>
@@ -204,8 +228,8 @@ export default function Post1() {
                <H2>
                   CONTACTOS DE EMERGENCIA
                   <Break />
-                  ( O TRAUMA-
-                  <Break />
+                  ( O TRAUMA
+                  <Break className="mobile" />
                   TOLOGÍA )
                </H2>
                <H5>( BRO, MÁ, PÁ )</H5>
@@ -225,10 +249,15 @@ export default function Post1() {
             <Separator className="mobile" />
 
             <PhraseContainer>
-               <Phrase>Figúrate que no eres más un hombre</Phrase>
+               <Phrase>
+                  Figúrate
+                  <Break />
+                  que no eres más un hombre
+               </Phrase>
                <Author>-ALMENDRA</Author>
             </PhraseContainer>
 
+            <Separator />
             <Separator />
             <Separator />
             <Separator className="mobile" />
@@ -243,7 +272,7 @@ export default function Post1() {
 
             <PhraseContainer>
                <Phrase>
-                  Para abandonarme
+                  para abandonarme
                   <Break />y renacer
                </Phrase>
                <Author>-AMOR AMARILLO</Author>
@@ -254,7 +283,7 @@ export default function Post1() {
             <Separator className="mobile" />
 
             <ParagraphContainer>
-               <Paragraph>
+               <Paragraph className="align-center">
                   quiero tenerte desde el primer verso
                   <Break />
                   tranqui, relajate ya estás adentro
@@ -282,7 +311,7 @@ export default function Post1() {
             <Separator className="small" />
 
             <ParagraphContainer>
-               <Paragraph>
+               <Paragraph className="align-center">
                   mi Madre la Poesía; mi Padre, el Creador
                   <Break />
                   fiestón de la palabra expresa y explícita
@@ -293,8 +322,8 @@ export default function Post1() {
 
             <Separator className="small" />
 
-            <ParagraphContainer className="align-center">
-               <Paragraph>
+            <ParagraphContainer>
+               <Paragraph className="align-center">
                   sé amable, cursi, solemne y simpaticón
                   <Break />
                   toda honesta locura será lícita
@@ -302,6 +331,7 @@ export default function Post1() {
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
             <Separator />
             <Separator />
             <Separator className="mobile" />
@@ -318,8 +348,8 @@ export default function Post1() {
 
             <PhraseContainer>
                <Phrase>
-                  Este no es un lugar para dar paseos por placer
-                  <Break />
+                  -Este no es un lugar para dar paseos por placer.{' '}
+                  <Break className="mobile" />
                   La Zona quiere ser respetada, sino te castigará.
                </Phrase>
                <Author>-STALKER</Author>
@@ -389,6 +419,7 @@ export default function Post1() {
 
             <Separator />
             <Separator />
+            <Separator />
             <Separator className="mobile" />
          </PostSection>
 
@@ -443,6 +474,7 @@ export default function Post1() {
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
             <Separator />
             <Separator />
             <Separator className="mobile" />
