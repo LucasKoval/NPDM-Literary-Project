@@ -15,22 +15,21 @@ import {
    Break,
 } from './posts-styles';
 
-export default function Post3() {
+export default function Post6() {
    return (
       <>
-         <PostSection id="page-5">
+         <PostSection id="page-8">
             <TitleContainer>
-               <H4 className="big">DEMONIOS</H4>
+               <H4 className="big"></H4>
             </TitleContainer>
 
             <Separator />
             <Separator />
             <Separator className="mobile" />
 
-            <PhraseContainer>
-               <Phrase>God loves his children</Phrase>
-               <Author>-OK COMPUTER</Author>
-            </PhraseContainer>
+            <ParagraphContainer className="on-right-side">
+               <Paragraph className="align-right"></Paragraph>
+            </ParagraphContainer>
 
             <Separator />
             <Separator />
@@ -38,39 +37,27 @@ export default function Post3() {
 
             <ParagraphContainer className="on-right-side">
                <Paragraph className="align-right">
-                  ¡¡¡LEGIÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓN!!!
                   <Break />
-                  bailen en el lugar, Legión
                   <Break />
-                  ¡y finjan poner atención!
                   <Break />
-                  salieron las ninfas de Sión
                   <Break />
-                  con que llega el Elegido
                   <Break />
-                  y creo: sería indebido
                   <Break />
-                  dejarlas sin contestación
                </Paragraph>
             </ParagraphContainer>
 
-            <Separator className="small" />
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
 
-            <ParagraphContainer className="on-right-side">
-               <Paragraph className="align-right">
-                  ¡nos importa un cuerno, perras!
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   <Break />
-                  vamos por ahí más vale
                   <Break />
-                  a mover bien los rabos y
                   <Break />
-                  a olernos bien nuestros culos
                   <Break />
-                  nada más no se enamoren…
                   <Break />
-                  y ahora bien, la cuestión no es
                   <Break />
-                  “si cayera”, sino “cuándo”
                </Paragraph>
             </ParagraphContainer>
 

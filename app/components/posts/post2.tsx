@@ -44,7 +44,13 @@ export default function Post2() {
                   <Break />
                   él quería que vayamos con mi hermano a dormir a su nuevo
                   departamento
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer>
+               <Paragraph className="align-center">
                   yo no quería ir, así que me retobé en el sofá
                </Paragraph>
             </ParagraphContainer>
@@ -100,6 +106,7 @@ export default function Post2() {
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
             <Separator />
             <Separator />
             <Separator className="mobile" />

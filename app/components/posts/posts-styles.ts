@@ -3,12 +3,13 @@
 import styled from 'styled-components';
 import { device } from '@/app/lib/breakpoints';
 
+//max-width: 550px;
+
 export const PostContainer = styled.section`
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   max-width: 550px;
    width: 100%;
 
    @media only screen and ${device.sm} {
@@ -48,18 +49,13 @@ export const PhraseContainer = styled.div`
 `;
 
 export const Phrase = styled.p`
-   font-size: 26px;
-   font-weight: bold;
-
-   @media only screen and ${device.sm} {
-      font-size: 24px;
-   }
+   font-size: 20px;
 `;
 
 export const Author = styled.p`
    font-family: 'Times New Roman', Times, serif;
    font-size: 20px;
-   margin-top: 1.5rem;
+   margin-top: 2.5rem;
 `;
 
 export const MainTitle = styled.h1`
