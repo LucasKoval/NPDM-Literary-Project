@@ -13,7 +13,7 @@ export default function Posts() {
          <Post2 />
          <Post3 />
          <Post4 />
-         {/* <Post5 /> */}
+         <Post5 />
       </PostContainer>
    );
 }
