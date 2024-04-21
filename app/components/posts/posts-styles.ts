@@ -102,7 +102,7 @@ export const H2 = styled.h2`
    }
 
    @media only screen and ${device.sm} {
-      font-size: 54px;
+      font-size: 52px;
 
       &.big {
          font-size: 58px;
@@ -122,7 +122,7 @@ export const H3 = styled.h3`
    font-size: 70px;
 
    @media only screen and ${device.sm} {
-      font-size: 44px;
+      font-size: 42px;
    }
 `;
 
@@ -132,7 +132,7 @@ export const H4 = styled.h4`
 
    @media only screen and ${device.sm} {
       &.big {
-         font-size: 56px;
+         font-size: 52px;
       }
    }
 `;
@@ -162,7 +162,7 @@ export const Paragraph = styled.p`
    }
 
    @media only screen and ${device.sm} {
-      font-size: 18px;
+      font-size: 16px;
    }
 `;
 
