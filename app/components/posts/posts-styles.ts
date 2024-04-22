@@ -49,12 +49,12 @@ export const PhraseContainer = styled.div`
 `;
 
 export const Phrase = styled.p`
-   font-size: 20px;
+   font-size: 19px;
 `;
 
 export const Author = styled.p`
    font-family: 'Times New Roman', Times, serif;
-   font-size: 20px;
+   font-size: 19px;
    margin-top: 2.5rem;
 `;
 
@@ -102,7 +102,7 @@ export const H2 = styled.h2`
    }
 
    @media only screen and ${device.sm} {
-      font-size: 52px;
+      font-size: 44px;
 
       &.big {
          font-size: 58px;
@@ -122,7 +122,7 @@ export const H3 = styled.h3`
    font-size: 70px;
 
    @media only screen and ${device.sm} {
-      font-size: 42px;
+      font-size: 34px;
    }
 `;
 
@@ -142,7 +142,7 @@ export const H5 = styled.h5`
    font-size: 30px;
 
    @media only screen and ${device.sm} {
-      font-size: 26px;
+      font-size: 22px;
    }
 `;
 
