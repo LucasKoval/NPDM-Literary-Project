@@ -121,8 +121,18 @@ export const H3 = styled.h3`
    font-family: 'Impact', sans-serif;
    font-size: 70px;
 
+   &.subtitle {
+      font-size: 80px;
+      display: inline;
+   }
+
    @media only screen and ${device.sm} {
       font-size: 34px;
+
+      &.subtitle {
+         font-size: 36px;
+         display: inline;
+      }
    }
 `;
 
@@ -133,6 +143,10 @@ export const H4 = styled.h4`
    @media only screen and ${device.sm} {
       &.big {
          font-size: 52px;
+      }
+
+      &.small {
+         font-size: 30px;
       }
    }
 `;

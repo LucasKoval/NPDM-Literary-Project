@@ -177,7 +177,13 @@ export default function Post1() {
 
             <TitleContainer>
                <H2>
-                  NIÑEZ <Break /> O EL LIBRO DE LA <Break /> CONCEPCIÓN
+                  NIÑEZ
+                  <Break />
+                  O
+                  <Break />
+                  EL LIBRO DE LA
+                  <Break />
+                  CONCEPCIÓN
                </H2>
             </TitleContainer>
 
@@ -186,7 +192,7 @@ export default function Post1() {
             <Separator className="small" />
 
             <TitleContainer>
-               <H3>( 2004 )</H3>
+               <H4 className="small">( 2004 )</H4>
             </TitleContainer>
 
             <Separator />
@@ -202,7 +208,11 @@ export default function Post1() {
             <Separator className="mobile" />
 
             <TitleContainer>
-               <H2>COPULÆN SONETOS</H2>
+               <H2>
+                  COPULÆN
+                  <Break />
+                  SONETOS
+               </H2>
                <H5>( IN, OUT )</H5>
             </TitleContainer>
 
@@ -214,8 +224,10 @@ export default function Post1() {
                <H2>
                   DIÁCORO
                   <Break />
-                  ( ENTRE MUSAS
-                  <Break className="mobile" /> Y DEMONIOS )
+                  <H3 className="subtitle">
+                     ( ENTRE MUSAS
+                     <Break /> Y DEMONIOS )
+                  </H3>
                </H2>
                <H5>( MUSAS, DEMONIOS, EPODOS )</H5>
             </TitleContainer>
@@ -226,12 +238,17 @@ export default function Post1() {
 
             <TitleContainer>
                <H2>
-                  CONTACTOS DE EMERGENCIA
+                  CONTACTOS DE
                   <Break />
-                  ( O TRAUMA
-                  <Break className="mobile" />
-                  TOLOGÍA )
+                  EMERGENCIA
+                  <H3 className="subtitle">
+                     {' '}
+                     ( Ó
+                     <Break />
+                     TRAUMATOLOGÍA )
+                  </H3>
                </H2>
+
                <H5>( BRO, MÁ, PÁ )</H5>
             </TitleContainer>
 
@@ -240,7 +257,11 @@ export default function Post1() {
             <Separator className="mobile" />
 
             <TitleContainer>
-               <H2>DOS PARA EL VIAJE</H2>
+               <H2>
+                  DOS
+                  <Break />
+                  PARA EL VIAJE
+               </H2>
                <H5>( NAVE, PILOTO )</H5>
             </TitleContainer>
 
