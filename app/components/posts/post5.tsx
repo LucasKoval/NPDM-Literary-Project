@@ -27,11 +27,10 @@ export default function Post5() {
             <Separator />
             <Separator className="mobile" />
 
-            <ParagraphContainer className="on-right-side">
-               <Paragraph className="align-right">
-                  oh, I’m gonna buy this place and start a fire
-               </Paragraph>
-            </ParagraphContainer>
+            <PhraseContainer>
+               <Phrase>oh, I’m gonna buy this place and start a fire</Phrase>
+               <Author>-A RUSH OF BLOOD TO THE HEAD</Author>
+            </PhraseContainer>
 
             <Separator />
             <Separator />

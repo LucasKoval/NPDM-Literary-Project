@@ -213,6 +213,11 @@ export default function Post1() {
                   <Break />
                   SONETOS
                </H2>
+
+               <Separator className="small" />
+               <Separator className="small" />
+               <Separator className="small" />
+
                <H5>( IN, OUT )</H5>
             </TitleContainer>
 
@@ -229,6 +234,11 @@ export default function Post1() {
                      <Break /> Y DEMONIOS )
                   </H3>
                </H2>
+
+               <Separator className="small" />
+               <Separator className="small" />
+               <Separator className="small" />
+
                <H5>( MUSAS, DEMONIOS, EPODOS )</H5>
             </TitleContainer>
 
@@ -249,6 +259,10 @@ export default function Post1() {
                   </H3>
                </H2>
 
+               <Separator className="small" />
+               <Separator className="small" />
+               <Separator className="small" />
+
                <H5>( BRO, MÁ, PÁ )</H5>
             </TitleContainer>
 
@@ -262,6 +276,11 @@ export default function Post1() {
                   <Break />
                   PARA EL VIAJE
                </H2>
+
+               <Separator className="small" />
+               <Separator className="small" />
+               <Separator className="small" />
+
                <H5>( NAVE, PILOTO )</H5>
             </TitleContainer>
 
