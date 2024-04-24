@@ -15,7 +15,7 @@ export default function Posts() {
          <Post3 />
          <Post4 />
          <Post5 />
-         {/* <Post6 /> */}
+         <Post6 />
          {/* <Post7 /> */}
       </PostContainer>
    );
