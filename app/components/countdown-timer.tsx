@@ -5,8 +5,7 @@ import { CountdownSection, CountdownTitle } from './countdown-timer-styles';
 import { Break } from './posts/posts-styles';
 
 const CountdownTimer: React.FC = () => {
-   const targetDate = new Date('2024-04-25T06:00:00').getTime();
-   /* const targetDate = new Date('2024-05-01T06:00:00').getTime(); */
+   const targetDate = new Date('2024-05-01T06:00:00').getTime();
    const [timeLeft, setTimeLeft] = useState(targetDate - Date.now());
 
    useEffect(() => {
@@ -36,8 +35,7 @@ const CountdownTimer: React.FC = () => {
    return (
       <CountdownSection>
          <CountdownTitle>
-            PÁ <Break className="mobile" />
-            {/* PILOTO <Break className="mobile" /> */}
+            PILOTO <Break className="mobile" />
             se libera en <Break className="mobile" /> {formatTime(timeLeft)}
          </CountdownTitle>
       </CountdownSection>
