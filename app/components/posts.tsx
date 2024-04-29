@@ -24,7 +24,8 @@ export default function Posts() {
          <Post4 />
          <Post5 />
          <Post6 />
-         {showNewPost && <Post7 />}
+         <Post7 />
+         {/* {showNewPost && <Post7 />} */}
       </PostContainer>
    );
 }
