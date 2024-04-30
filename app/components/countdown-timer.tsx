@@ -7,7 +7,7 @@ import { Break } from './posts/posts-styles';
 const CountdownTimer: React.FC = () => {
    const currentDate = new Date();
    const newPostDate = new Date('2024-05-01T16:00:00');
-   const nextPostDate = new Date('2024-05-16T22:00:00');
+   const nextPostDate: any = new Date('2024-05-16T22:00:00');
    const targetDate = new Date('2024-05-01T16:00:00').getTime();
    const [timeLeft, setTimeLeft] = useState(targetDate - Date.now());
    const [newPostTitle, setNewPostTitle] = useState('PILOTO y OUT');
