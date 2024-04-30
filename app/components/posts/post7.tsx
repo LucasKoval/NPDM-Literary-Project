@@ -48,19 +48,33 @@ export default function Post7() {
                <Paragraph className="align-left">voy en mi nave</Paragraph>
             </ParagraphContainer>
 
-            <Separator className="small" />
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">tranquilo</Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">rueda mi nave pero</Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator className="mobile" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">yo vuelo</Paragraph>
             </ParagraphContainer>
+
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
@@ -69,6 +83,9 @@ export default function Post7() {
                   porque yo salgo a buscarlo
                </Paragraph>
             </ParagraphContainer>
+
+            <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
@@ -86,16 +103,33 @@ export default function Post7() {
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
                   bueno, manos a la Obra
-                  <Break />
-                  dice la hormiga reina:
-                  <Break />
-                  quebrantar una norma de tránsito y escribir un texto a partir
-                  d… okey
                </Paragraph>
             </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
+                  dice la hormiga reina:
+                  <Break />
+                  <em>
+                     quebrantar una norma de tránsito y escribir un texto a
+                     partir d… okey
+                  </em>
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
@@ -105,13 +139,18 @@ export default function Post7() {
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator className="small" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">no sé</Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator className="mobile" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
-                  intento que se me ocurra
+                  una que cueste
                   <Break />
                   que tenga repercusiones
                   <Break />
@@ -119,11 +158,18 @@ export default function Post7() {
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator className="mobile" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
                   me distraen estos ruiditos
                </Paragraph>
             </ParagraphContainer>
+
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
@@ -137,6 +183,13 @@ export default function Post7() {
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
                   los mejores regalos siempre me los hizo Mamá
@@ -144,6 +197,18 @@ export default function Post7() {
                   la nave; el equipo; la máquina en la que escribo
                </Paragraph>
             </ParagraphContainer>
+
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
@@ -153,11 +218,20 @@ export default function Post7() {
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
                   a veces, todavía quiero
                </Paragraph>
             </ParagraphContainer>
+
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
@@ -169,6 +243,9 @@ export default function Post7() {
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator className="mobile" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
                   no hay máscara que resista disimulo alguno
@@ -177,12 +254,21 @@ export default function Post7() {
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
                   la verdad es que soy extremadamente egoísta
                   <Break />y no quiero que la existencia de nadie me moleste
                </Paragraph>
             </ParagraphContainer>
+
+            <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
@@ -198,9 +284,15 @@ export default function Post7() {
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator className="mobile" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">no hay más secreto</Paragraph>
             </ParagraphContainer>
+
+            <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
@@ -209,6 +301,10 @@ export default function Post7() {
                   pura indeseable consecuencia
                </Paragraph>
             </ParagraphContainer>
+
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
@@ -222,12 +318,21 @@ export default function Post7() {
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator className="mobile" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
                   el cielo de algunos
                   <Break />
                   es el abismo de otros
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   y en libros que el mundo cree incinerados
                   <Break />
                   he leído que hay Bestias que al estornudar
@@ -235,6 +340,12 @@ export default function Post7() {
                   despiden millones de cúmulos de galaxias
                </Paragraph>
             </ParagraphContainer>
+
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
@@ -246,23 +357,44 @@ export default function Post7() {
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
                   y Mamá me está volviendo loco
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
                   la gente hablamos de la locura
                   <Break />
                   hasta con cierta gracia a veces
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   pero que se enferme la cabeza
                   <Break />
                   es rudo
                </Paragraph>
             </ParagraphContainer>
+
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
@@ -272,7 +404,13 @@ export default function Post7() {
                   de)
                   <Break />
                   la entrega
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   porque para mí
                   <Break />
                   estar loco, es que no te importe dar
@@ -284,10 +422,17 @@ export default function Post7() {
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator className="mobile" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">¡ahí está!</Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
-                  ¡ahí está!
-                  <Break />
                   ir sin casco
                   <Break />
                   eso sí que no hago nunca
@@ -301,17 +446,35 @@ export default function Post7() {
                   si queda cool, y aparte
                   <Break />
                   ¿qué piloto no tiene su casco?
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   podés ser una amenaza vial pero
                   <Break />
                   es realmente estúpido ir sin casco
-                  <Break />y pienso
                </Paragraph>
             </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">y pienso</Paragraph>
+            </ParagraphContainer>
+
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">es como con Mamá</Paragraph>
             </ParagraphContainer>
+
+            <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
@@ -319,15 +482,37 @@ export default function Post7() {
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
                   me saco entonces el casco
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">esto es estúpido</Paragraph>
             </ParagraphContainer>
+
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
@@ -335,11 +520,20 @@ export default function Post7() {
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator className="mobile" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
                   creo que nunca lo tuve tan largo
                </Paragraph>
             </ParagraphContainer>
+
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
@@ -349,6 +543,9 @@ export default function Post7() {
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator className="mobile" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
                   la verdad es que ya estoy cansado de usar este medio ineficaz
@@ -357,6 +554,12 @@ export default function Post7() {
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
                   me acuerdo que en mi primera comunión la hostia se me pegó al
@@ -364,13 +567,25 @@ export default function Post7() {
                   <Break />
                   la textura y el sabor me dieron un asco y ni a palo quería
                   tragar mi saliva
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   se me fue haciendo un buche de baba que a su vez iba
                   disolviendo la hostia
                   <Break />
                   imposibilitado para hablar, no pude decirle al de al lado que
                   con su espíritu
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   salíamos en fila de la iglesia hacia el colegio, afuera llovía
                   y dije es ahora
                   <Break />
@@ -379,7 +594,13 @@ export default function Post7() {
                   <Break />
                   vi la vereda lavándose; vi que nadie miraba, y escupí ese
                   chorro blancuzco
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   sonreía, sintiendo que estaba destinado a ser malo, pero sin
                   sentirme mal
                   <Break />
@@ -394,32 +615,67 @@ export default function Post7() {
                   <Break />
                   lo que se da y no es más que eso mismo; este sentimiento de
                   sentir en sí
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   de querer tanto que te mueras ya
                   <Break />
                   para que descanses, un rato y luego vuelvas, como siempre me
                   dijiste que funciona la cosa
-                  <Break />
-                  y de paso así se me van estas terribles ganas de matarte, que
-                  me hacen sentir tan mal
-                  <Break />
+                  <Break />y de paso así se me van estas terribles ganas de
+                  matarte, que me hacen sentir tan mal
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   estoy harto de vos, de tener que vivir con vos, para no
                   dejarte sola
                   <Break />
                   en tu locura
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   ¿por qué tengo que cuidarte?
                   <Break />
                   ¿por qué se siente como un deber?
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   ya estás hecha, herida mentalmente, solitaria y sin miedo a
                   morir
                   <Break />
                   ¿qué estás esperando para irte y dejarme ser más libre y,
                   quizá, hasta feliz?
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   te amo, y soy tan malo, mamá, no sé porqué
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   siempre estuviste, te quedaste y nos hablaste de la Muerte y
                   eso fue tan importante y valioso
                   <Break />
@@ -427,21 +683,40 @@ export default function Post7() {
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">perdoname…</Paragraph>
             </ParagraphContainer>
+
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
                   qué eficaz se tornan de repente las palabras
                   <Break />
                   cuando se trata de herir
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   pareciera ser como dice aquella canción
                   <Break />
                   no sirven realmente para otra cosa
                </Paragraph>
             </ParagraphContainer>
+
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
@@ -450,41 +725,91 @@ export default function Post7() {
                   <em>ah, se cuida de la locura de su madre</em>
                   <Break />
                   <em>pero fuma porro y bebe alcohol</em>
-                  <Break />y sí
                </Paragraph>
             </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">y sí</Paragraph>
+            </ParagraphContainer>
+
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">es cierto</Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator className="mobile" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
                   el trago nos deteriora
-                  <Break />
-                  y al final saca lo peor de nosotros
-                  <Break />
+                  <Break />y al final saca lo peor de nosotros
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   y el abuso de maría
                   <Break />
                   es un lento pero seguro camino a la Locura
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   después
                   <Break />
                   también está el porno
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   la paja no me preocupa
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   es más sano andar por ahí descargado
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   se puede pensar
                   <Break />
                   al menos lo necesario
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   qué sé yo
                   <Break />
                   quizás sea nomás un pajero y listo
                </Paragraph>
             </ParagraphContainer>
+
+            <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
@@ -493,12 +818,24 @@ export default function Post7() {
                   <Break />
                   porque, digan lo que digan, si vamos hasta el final, nos
                   queremos coger a quien sea o a lo que sea que amamos
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   y hay quien pega toda una vuelta sin haber aprendido a hacer
                   el Amor
                   <Break />
                   (¿cómo vamos a sanar si no sabemos hacer el Amor?)
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   no me importa si sueno cursi
                   <Break />
                   pero sí que existe eso
@@ -507,16 +844,30 @@ export default function Post7() {
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
                   el alma busca ser alma en el cuerpo
                   <Break />
                   sólo así hay Purgatorio
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   (el Infierno es ser sólo cuerpo
                   <Break />y está prohibido decir que el Paraíso existe)
                </Paragraph>
             </ParagraphContainer>
+
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
@@ -525,6 +876,9 @@ export default function Post7() {
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator className="mobile" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
                   aprender a vivir
@@ -532,14 +886,29 @@ export default function Post7() {
                   es
                   <Break />
                   aprender a morir
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   no aprender a morir es vivir creyendo la mentira de que la
                   vida es una sola
-                  <Break />
+               </Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">
                   qué mediocre es quitarle importancia a la vida por no ser la
                   única que tenemos
                </Paragraph>
             </ParagraphContainer>
+
+            <Separator />
+            <Separator className="mobile" />
 
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
@@ -554,17 +923,32 @@ export default function Post7() {
                </Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">bueno</Paragraph>
             </ParagraphContainer>
 
+            <Separator />
+            <Separator className="mobile" />
+
+            <ParagraphContainer className="on-left-side">
+               <Paragraph className="align-left">ya anduve</Paragraph>
+            </ParagraphContainer>
+
+            <Separator className="small" />
+
             <ParagraphContainer className="on-left-side">
                <Paragraph className="align-left">
-                  ya anduve
-                  <Break />
                   me pongo de nuevo el cas-¡tuc!
                </Paragraph>
             </ParagraphContainer>
+
+            <Separator className="small" />
 
             <ParagraphContainer className="on-right-side">
                <Paragraph className="align-right">…crack.</Paragraph>
