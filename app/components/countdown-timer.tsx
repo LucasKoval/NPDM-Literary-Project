@@ -10,6 +10,7 @@ const CountdownTimer: React.FC = () => {
    const nextPostDate = new Date('2024-05-16T22:00:00');
    const targetDate = new Date('2024-05-01T16:00:00').getTime();
    const [timeLeft, setTimeLeft] = useState(targetDate - Date.now());
+   const [newPostTitle, setNewPostTitle] = useState('PILOTO y OUT');
    let showNewPost = false;
 
    if (currentDate >= newPostDate) {
@@ -18,12 +19,14 @@ const CountdownTimer: React.FC = () => {
 
    useEffect(() => {
       const interval = setInterval(() => {
-         const newTimeLeft = targetDate - Date.now();
+         let newTimeLeft = targetDate - Date.now();
          setTimeLeft(newTimeLeft);
 
-         /* Sigo aca. Logica ára que muestre el otro timer del nextPostDate */
-
          if (newTimeLeft <= 0) {
+            let newTimeLeft = nextPostDate - Date.now();
+            setTimeLeft(newTimeLeft);
+            setNewPostTitle('EGOL');
+
             clearInterval(interval);
          }
       }, 1000);
@@ -44,17 +47,10 @@ const CountdownTimer: React.FC = () => {
 
    return (
       <CountdownSection>
-         {!showNewPost ? (
-            <CountdownTitle>
-               PILOTO y OUT <Break className="mobile" />
-               se libera en <Break className="mobile" /> {formatTime(timeLeft)}
-            </CountdownTitle>
-         ) : (
-            <CountdownTitle>
-               EGOL <Break className="mobile" />
-               se libera en <Break className="mobile" /> {formatTime(timeLeft)}
-            </CountdownTitle>
-         )}
+         <CountdownTitle>
+            {newPostTitle} <Break className="mobile" />
+            se libera en <Break className="mobile" /> {formatTime(timeLeft)}
+         </CountdownTitle>
       </CountdownSection>
    );
 };
