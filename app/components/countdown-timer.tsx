@@ -23,7 +23,7 @@ const CountdownTimer: React.FC = () => {
          setTimeLeft(newTimeLeft);
 
          if (newTimeLeft <= 0) {
-            let newTimeLeft = nextPostDate - Date.now();
+            newTimeLeft = nextPostDate - Date.now();
             setTimeLeft(newTimeLeft);
             setNewPostTitle('EGOL');
 
