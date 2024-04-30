@@ -11,15 +11,17 @@ const CountdownTimer: React.FC = () => {
    const targetDate = new Date('2024-05-01T16:00:00').getTime();
    const [timeLeft, setTimeLeft] = useState(targetDate - Date.now());
    const [newPostTitle, setNewPostTitle] = useState('PILOTO y OUT');
-   let showNewPost = false;
+   let showNewPost: boolean = false;
 
    if (currentDate >= newPostDate) {
       showNewPost = true;
    }
 
    useEffect(() => {
+      let newTimeLeft: any;
+
       const interval = setInterval(() => {
-         let newTimeLeft = targetDate - Date.now();
+         newTimeLeft = targetDate - Date.now();
          setTimeLeft(newTimeLeft);
 
          if (newTimeLeft <= 0) {
