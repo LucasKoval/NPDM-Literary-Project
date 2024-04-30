@@ -6,7 +6,7 @@ export default function TempLayout() {
          </div>
 
          <div>
-            <p>Apertura: 4/4/2024</p>
+            <p>En mantenimiento</p>
          </div>
       </div>
    );
