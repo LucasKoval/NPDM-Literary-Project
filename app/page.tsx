@@ -1,5 +1,6 @@
 import Posts from '@/app/components/posts';
 import CountdownTimer from '@/app/components/countdown-timer';
+import ScrollPosition from '@/app/components/scroll-position';
 import TempLayout from '@/app/components/temp-layout';
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
          {/* <TempLayout /> */}
          <Posts />
          <CountdownTimer />
+         <ScrollPosition />
       </main>
    );
 }

@@ -6,14 +6,14 @@ import { Break } from './posts/posts-styles';
 
 const CountdownTimer: React.FC = () => {
    const currentDate = new Date();
-   const newPostDate = new Date('2024-05-01T16:00:00');
-   const nextPostDate: any = new Date('2024-05-16T22:00:00');
-   const targetDate = new Date('2024-05-01T16:00:00').getTime();
-   const [timeLeft, setTimeLeft] = useState(targetDate - Date.now());
-   const [newPostTitle, setNewPostTitle] = useState('PILOTO y OUT');
+   const targetDate = new Date('2024-05-16T22:00:00');
+   const targetDateTime = new Date('2024-05-16T22:00:00').getTime();
+   const nextPostDate: any = new Date('2024-05-30T22:00:00');
+   const [timeLeft, setTimeLeft] = useState(targetDateTime - Date.now());
+   const [newPostTitle, setNewPostTitle] = useState('EGOL'); // Current Post Title here
    let showNewPost: boolean = false;
 
-   if (currentDate >= newPostDate) {
+   if (currentDate >= targetDate) {
       showNewPost = true;
    }
 
@@ -21,13 +21,13 @@ const CountdownTimer: React.FC = () => {
       let newTimeLeft: any;
 
       const interval = setInterval(() => {
-         newTimeLeft = targetDate - Date.now();
+         newTimeLeft = targetDateTime - Date.now();
          setTimeLeft(newTimeLeft);
 
          if (newTimeLeft <= 0) {
             newTimeLeft = nextPostDate - Date.now();
             setTimeLeft(newTimeLeft);
-            setNewPostTitle('EGOL');
+            setNewPostTitle('???'); // New Post Title here
 
             clearInterval(interval);
          }
@@ -36,7 +36,7 @@ const CountdownTimer: React.FC = () => {
       return () => {
          clearInterval(interval);
       };
-   }, [targetDate]);
+   }, [targetDateTime]);
 
    const formatTime = (time: number): string => {
       const seconds = Math.floor((time / 1000) % 60);
