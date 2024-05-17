@@ -174,9 +174,43 @@ export const Paragraph = styled.p`
    &.align-right {
       text-align: end;
    }
+   &.align-justify {
+      text-align: justify;
+   }
+
+   & span.large {
+      font-size: 19px;
+
+      &.spacing-s {
+         padding-left: 4px;
+      }
+      &.spacing-m {
+         padding-left: 8px;
+      }
+      &.spacing-l {
+         padding-left: 12px;
+      }
+      &.spacing-xl {
+         padding-left: 15px;
+      }
+   }
 
    @media only screen and ${device.sm} {
       font-size: 16px;
+
+      & span.large {
+         font-size: 18px;
+
+         &.spacing-small {
+            padding-left: 4px;
+         }
+         &.spacing-medium {
+            padding-left: 8px;
+         }
+         &.spacing-large {
+            padding-left: 12px;
+         }
+      }
    }
 `;
 

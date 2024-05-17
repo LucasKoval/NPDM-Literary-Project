@@ -6,11 +6,11 @@ import { Break } from './posts/posts-styles';
 
 const CountdownTimer: React.FC = () => {
    const currentDate = new Date();
-   const targetDate = new Date('2024-05-16T22:00:00');
-   const targetDateTime = new Date('2024-05-16T22:00:00').getTime();
-   const nextPostDate: any = new Date('2024-05-19T16:00:00');
+   const targetDate = new Date('2024-05-19T16:00:00');
+   const targetDateTime = new Date('2024-05-19T16:00:00').getTime();
+   const nextPostDate: any = new Date('2024-05-23T16:00:00');
    const [timeLeft, setTimeLeft] = useState(targetDateTime - Date.now());
-   const [newPostTitle, setNewPostTitle] = useState('EGOL'); // Current Post Title here
+   const [newPostTitle, setNewPostTitle] = useState('37-38°C'); // Current Post Title here
    let showNewPost: boolean = false;
 
    if (currentDate >= targetDate) {
@@ -27,7 +27,7 @@ const CountdownTimer: React.FC = () => {
          if (newTimeLeft <= 0) {
             newTimeLeft = nextPostDate - Date.now();
             setTimeLeft(newTimeLeft);
-            setNewPostTitle('37-38°C'); // New Post Title here
+            setNewPostTitle('KERESER'); // New Post Title here
 
             clearInterval(interval);
          }
