@@ -31,8 +31,7 @@ export default function Chapter2() {
       <>
          <Post9 />
          <Post10 />
-         {/* <Post11 /> */}
-         {/* {showNewPost && <Post11 />} */}
+         {showNewPost && <Post11 />}
       </>
    );
 }
