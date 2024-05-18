@@ -23,16 +23,31 @@ export const PostSection = styled.article`
 `;
 
 export const ParagraphContainer = styled.div`
-   display: flex;
+   display: flex !important;
    justify-content: center;
    align-items: center;
 
    &.on-left-side {
       justify-content: flex-start;
    }
-
    &.on-right-side {
       justify-content: flex-end;
+   }
+   &.mobile {
+      display: none !important;
+   }
+   &.desktop {
+      display: flex !important;
+   }
+
+   @media only screen and ${device.sm} {
+      &.mobile {
+         display: flex !important;
+         align-items: baseline;
+      }
+      &.desktop {
+         display: none !important;
+      }
    }
 `;
 
