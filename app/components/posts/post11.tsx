@@ -42,28 +42,28 @@ export default function Post11() {
             <ParagraphContainer>
                <Paragraph className="align-justify">
                   en este mismo sofá, me hice mi primera paja{' '}
-                  <span className="large spacing-s">
+                  <span className="large space-m">
                      nochextraña y sacraceitosa
                   </span>
                   <Break />
                   mi primo Pacho me enseñó cómo{' '}
-                  <span className="large spacing-m">
+                  <span className="large space-l">
                      confirma Sión al frente olivalsámico
                   </span>
                   <Break />
                   teníamos once años y toda la quinta para nosotros{' '}
-                  <span className="large">padrino mentrega papá</span>
+                  <span className="large space-s">padrino mentrega papá</span>
                   <Break />
                   él en aquel extremo y yo en este (ya no es tan largo el sofá)
-                  <span className="large">1 nervio sismo</span>
+                  <span className="large space-xs"> 1 nervio sismo</span>
                   <Break />
                   peló su pilín y comenzó a ilustrarme{' '}
-                  <span className="large spacing-m">
+                  <span className="large space-xl">
                      <em>alguien te quiere conocer</em> me dijo
                   </span>
                   <Break />
                   (siempre tuvo manos de basquetbolista{' '}
-                  <span className="large ">
+                  <span className="large space-s">
                      caminamos en silencio un trecho
                   </span>
                   <Break />
@@ -74,49 +74,48 @@ export default function Post11() {
                   <Break />
                   era gracioso pero ahora él mantenía tal solemnidad y no me
                   quise reír{' '}
-                  <span className="large spacing-m">
+                  <span className="large space-l">
                      <em>hola</em>
                   </span>
                   <Break />
                   -probá. yo, ya que estoy, me voy a “echar” una{' '}
-                  <span className="large spacing-s">
+                  <span className="large space-xs">
                      dijo y me agarró del brazo
                   </span>
                   <Break />
                   así que pelé yo también y comencé a hacer según se me indicó{' '}
-                  <span className="large spacing-s">y me apartó</span>
+                  <span className="large space-s">y me apartó</span>
                   <Break />
                   no le encontraba la gracia, pero le ponía voluntad y
-                  entusiasmo{' '}
-                  <span className="large spacing-m">de mi viejo</span>
+                  entusiasmo <span className="large space-s">de mi viejo</span>
                   <Break />
                   en una, sin dejar de masturbarse, él me dice{' '}
-                  <span className="large spacing-l">
+                  <span className="large space-l">
                      <em>qué gusto conocerte por fin</em>
                   </span>
                   <Break />
                   -cuando “acabás” se siente bien en todo el cuerpo{' '}
-                  <span className="large spacing-s">
+                  <span className="large space-xs">
                      <em>soy la mujer de tu papá</em>
                   </span>
                   <Break />
                   eso me motivó; exploraba agarres, velocidades{' '}
-                  <span className="large spacing-l">
+                  <span className="large space-xl">
                      ya había oído su nombre
                   </span>
                   <Break />
                   excitado, una vez que le agarré la mano{' '}
-                  <span className="large spacing-s">
+                  <span className="large space-m">
                      en esas discusiones por teléfono
                   </span>
                   <Break />
                   fueron unos segundos, y entonces la explosión{' '}
-                  <span className="large spacing-s">
+                  <span className="large space-s">
                      <em>pero quiero que sepas que</em>
                   </span>
                   <Break />
                   nunca fue tan superada una expectativa{' '}
-                  <span className="large spacing-l">
+                  <span className="large space-xxl">
                      <em>yo jamás voy a ocupar el lugar</em>
                   </span>
                   <Break />
@@ -126,10 +125,10 @@ export default function Post11() {
                      <span className="large">de tu mamá ¿sabés?</span>
                   </em>
                   <Break />y menos aún que, al acabar él, se levantó casi de un
-                  salto <span className="large spacing-xl">volví con papá</span>
+                  salto <span className="large space-xxl">volví con papá</span>
                   <Break />
                   me vio, fulminado, y no pudo ocultar el orgullo propio{' '}
-                  <span className="large spacing-s">él sonreía aliviado</span>
+                  <span className="large space-m">él sonreía aliviado</span>
                   <Break />
                   -vamos al aro, te juego un pique veintiuno- y saliendo{' '}
                   <span className="large">me dijo sin mirarme</span>

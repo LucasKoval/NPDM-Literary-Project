@@ -177,38 +177,66 @@ export const Paragraph = styled.p`
    &.align-justify {
       text-align: justify;
    }
+   &.mobile {
+      display: none;
+   }
+   &.desktop {
+      display: block;
+   }
 
    & span.large {
       font-size: 19px;
 
-      &.spacing-s {
-         padding-left: 4px;
+      &.space-xs {
+         padding-left: 3px;
       }
-      &.spacing-m {
-         padding-left: 8px;
+      &.space-s {
+         padding-left: 6px;
       }
-      &.spacing-l {
+      &.space-m {
+         padding-left: 9px;
+      }
+      &.space-l {
          padding-left: 12px;
       }
-      &.spacing-xl {
-         padding-left: 15px;
+      &.space-xl {
+         padding-left: 16px;
+      }
+      &.space-xxl {
+         padding-left: 20px;
       }
    }
 
    @media only screen and ${device.sm} {
       font-size: 16px;
 
+      &.mobile {
+         display: block;
+      }
+      &.desktop {
+         display: none;
+      }
+
       & span.large {
          font-size: 18px;
 
-         &.spacing-small {
-            padding-left: 4px;
+         &.space-xs {
+            padding-left: 0px;
          }
-         &.spacing-medium {
-            padding-left: 8px;
+         &.space-s {
+            padding-left: 0px;
          }
-         &.spacing-large {
-            padding-left: 12px;
+         &.space-m {
+            padding-left: 0px;
+         }
+         &.space-l {
+            padding-left: 0px;
+         }
+         &.space-xl {
+            padding-left: 0px;
+         }
+         &.space-xxl {
+            padding-left: 0px;
          }
       }
    }
@@ -238,10 +266,16 @@ export const Break = styled.br`
    &.mobile {
       display: none;
    }
+   &.desktop {
+      display: block;
+   }
 
    @media only screen and ${device.sm} {
       &.mobile {
          display: block;
+      }
+      &.desktop {
+         display: none;
       }
    }
 `;
