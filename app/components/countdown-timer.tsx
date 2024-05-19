@@ -10,7 +10,7 @@ const CountdownTimer: React.FC = () => {
    const targetDateTime = new Date('2024-05-19T16:00:00').getTime();
    const nextPostDate: any = new Date('2024-05-23T16:00:00');
    const [timeLeft, setTimeLeft] = useState(targetDateTime - Date.now());
-   const [newPostTitle, setNewPostTitle] = useState('37-38°C'); // Current Post Title here
+   const [newPostTitle, setNewPostTitle] = useState('KERESER'); // Current Post Title here
    let showNewPost: boolean = false;
 
    if (currentDate >= targetDate) {
