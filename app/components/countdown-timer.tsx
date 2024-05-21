@@ -6,9 +6,9 @@ import { Break } from './posts/posts-styles';
 
 const CountdownTimer: React.FC = () => {
    const currentDate = new Date();
-   const targetDate = new Date('2024-05-19T16:00:00');
-   const targetDateTime = new Date('2024-05-19T16:00:00').getTime();
-   const nextPostDate: any = new Date('2024-05-23T16:00:00');
+   const targetDate = new Date('2024-05-23T16:00:00');
+   const targetDateTime = new Date('2024-05-23T16:00:00').getTime();
+   const nextPostDate: any = new Date('2024-05-26T16:00:00');
    const [timeLeft, setTimeLeft] = useState(targetDateTime - Date.now());
    const [newPostTitle, setNewPostTitle] = useState('KERESER'); // Current Post Title here
    let showNewPost: boolean = false;
@@ -27,7 +27,7 @@ const CountdownTimer: React.FC = () => {
          if (newTimeLeft <= 0) {
             newTimeLeft = nextPostDate - Date.now();
             setTimeLeft(newTimeLeft);
-            setNewPostTitle('KERESER'); // New Post Title here
+            setNewPostTitle('VASECTOMY MEN'); // New Post Title here
 
             clearInterval(interval);
          }
