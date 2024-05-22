@@ -9,6 +9,7 @@ const CountdownTimer: React.FC = () => {
    const targetDate = new Date('2024-05-23T16:00:00');
    const targetDateTime = new Date('2024-05-23T16:00:00').getTime();
    const nextPostDate: any = new Date('2024-05-26T16:00:00');
+   /* Next date to this one: 2024-05-30T16:00:00 */
    const [timeLeft, setTimeLeft] = useState(targetDateTime - Date.now());
    const [newPostTitle, setNewPostTitle] = useState('KERESER'); // Current Post Title here
    let showNewPost: boolean = false;
@@ -28,6 +29,7 @@ const CountdownTimer: React.FC = () => {
             newTimeLeft = nextPostDate - Date.now();
             setTimeLeft(newTimeLeft);
             setNewPostTitle('VASECTOMY MEN'); // New Post Title here
+            /* Next title to this one: 39-40°C */
 
             clearInterval(interval);
          }
