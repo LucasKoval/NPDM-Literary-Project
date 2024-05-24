@@ -6,11 +6,13 @@ import Post10 from '../posts/post10';
 import Post11 from '../posts/post11';
 import Post12 from '../posts/post12';
 import Post13 from '../posts/post13';
+import Post14 from '../posts/post14';
 
 export default function Chapter2() {
    let currentDate = new Date();
-   let newPostDate = new Date('2024-05-23T16:00:00');
-   let targetDate = new Date('2024-05-23T16:00:00').getTime();
+   let newPostDate = new Date('2024-05-26T16:00:00');
+   let targetDate = new Date('2024-05-26T16:00:00').getTime();
+   /* Next date to this one: 2024-05-30T16:00:00 */
    const [timeLeft, setTimeLeft] = useState(targetDate - Date.now());
    const [showNewPost, setShowNewPost] = useState(false);
 
@@ -34,8 +36,9 @@ export default function Chapter2() {
          <Post9 />
          <Post10 />
          <Post11 />
-         {showNewPost && <Post12 />}
-         {/* {showNewPost && <Post13 />} */}
+         <Post12 />
+         {showNewPost && <Post13 />}
+         {/* {showNewPost && <Post14 />} */}
       </>
    );
 }
