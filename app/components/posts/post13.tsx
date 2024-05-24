@@ -66,10 +66,6 @@ export default function Post13() {
                   </ParagraphContainer>
                }
                placement="top"
-               css={{
-                  background: 'white',
-                  color: 'black',
-               }}
             >
                <TooltipButton>?</TooltipButton>
             </Tooltip>
@@ -102,10 +98,6 @@ export default function Post13() {
                   </ParagraphContainer>
                }
                placement="top"
-               css={{
-                  background: 'white',
-                  color: 'black',
-               }}
             >
                <TooltipButton>?</TooltipButton>
             </Tooltip>
@@ -138,10 +130,6 @@ export default function Post13() {
                   </ParagraphContainer>
                }
                placement="top"
-               css={{
-                  background: 'white',
-                  color: 'black',
-               }}
             >
                <TooltipButton>?</TooltipButton>
             </Tooltip>
@@ -174,10 +162,6 @@ export default function Post13() {
                   </ParagraphContainer>
                }
                placement="top"
-               css={{
-                  background: 'white',
-                  color: 'black',
-               }}
             >
                <TooltipButton>?</TooltipButton>
             </Tooltip>
