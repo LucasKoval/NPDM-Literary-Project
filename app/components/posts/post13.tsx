@@ -1,5 +1,4 @@
 import { Tooltip } from '@nextui-org/tooltip';
-import { css } from '@nextui-org/react';
 import {
    PostSection,
    ParagraphContainer,
