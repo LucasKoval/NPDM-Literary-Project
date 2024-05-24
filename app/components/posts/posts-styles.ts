@@ -3,8 +3,6 @@
 import styled from 'styled-components';
 import { device } from '@/app/lib/breakpoints';
 
-//max-width: 550px;
-
 export const PostContainer = styled.section`
    display: flex;
    flex-direction: column;
@@ -292,5 +290,21 @@ export const Break = styled.br`
       &.desktop {
          display: none;
       }
+   }
+`;
+
+export const TooltipButton = styled.button`
+   width: fit-content;
+   padding: 4px 7px;
+   margin-top: 6px;
+   border: 1px solid black;
+   border-radius: 50%;
+   align-self: center;
+   font-weight: bold;
+
+   display: none;
+
+   @media only screen and ${device.sm} {
+      display: none;
    }
 `;
