@@ -6,12 +6,12 @@ import { Break } from './posts/posts-styles';
 
 const CountdownTimer: React.FC = () => {
    const currentDate = new Date();
-   const targetDate = new Date('2024-05-26T16:00:00');
-   const targetDateTime = new Date('2024-05-26T16:00:00').getTime();
+   const targetDate = new Date('2024-05-30T17:00:00');
+   const targetDateTime = new Date('2024-05-30T17:00:00').getTime();
    const nextPostDate: any = new Date('2024-05-30T16:00:00');
    /* Next date to this one: 2024-05-30T16:00:00 */
    const [timeLeft, setTimeLeft] = useState(targetDateTime - Date.now());
-   const [newPostTitle, setNewPostTitle] = useState('VASECTOMY MEN'); // Current Post Title here
+   const [newPostTitle, setNewPostTitle] = useState('39-40°C'); // Current Post Title here
    let showNewPost: boolean = false;
 
    if (currentDate >= targetDate) {
@@ -28,7 +28,7 @@ const CountdownTimer: React.FC = () => {
          if (newTimeLeft <= 0) {
             newTimeLeft = nextPostDate - Date.now();
             setTimeLeft(newTimeLeft);
-            setNewPostTitle('39-40°C'); // New Post Title here
+            setNewPostTitle('MERESER'); // New Post Title here
             /* Next title to this one: 39-40°C */
 
             clearInterval(interval);
