@@ -1,12 +1,15 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Post7C from '../posts/post7c';
+import Post8 from '../posts/post8';
 import Post9 from '../posts/post9';
 import Post10 from '../posts/post10';
 import Post11 from '../posts/post11';
 import Post12 from '../posts/post12';
 import Post13 from '../posts/post13';
 import Post14 from '../posts/post14';
+import Post15 from '../posts/post15';
 
 export default function Chapter2() {
    let currentDate = new Date();
@@ -33,13 +36,15 @@ export default function Chapter2() {
 
    return (
       <>
+         <Post7C />
+         <Post8 />
          <Post9 />
          <Post10 />
          <Post11 />
          <Post12 />
-         <Post13 />
-         <Post14 />
+         {showNewPost && <Post13 />}
          {/* {showNewPost && <Post14 />} */}
+         {/* {showNewPost && <Post15 />} */}
       </>
    );
 }

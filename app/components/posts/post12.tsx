@@ -18,9 +18,9 @@ import {
 export default function Post12() {
    return (
       <>
-         <PostSection id="page-14">
+         <PostSection id="page-16">
             <TitleContainer>
-               <H4 className="big">KERESER</H4>
+               <H4 className="big">39-40°C</H4>
             </TitleContainer>
 
             <Separator />
@@ -28,143 +28,238 @@ export default function Post12() {
             <Separator className="mobile" />
 
             <PhraseContainer>
-               <Phrase>the road was long and the race was fast</Phrase>
-               <Author>-LLEGANDO LOS MONOS</Author>
+               <Phrase>
+                  King of Darkness
+                  <Break />
+                  King of Fear
+                  <Break />
+                  don’t try to get me
+                  <Break />
+                  You won’t get near.
+               </Phrase>
+               <Author>-FIEBRE</Author>
             </PhraseContainer>
 
             <Separator />
             <Separator />
             <Separator className="mobile" />
 
-            <ParagraphContainer>
-               <Paragraph className="align-center">
-                  deseo tanto que pudieras ahora comprender cuánto querías
-                  existir
+            <ParagraphContainer className="desktop">
+               <Paragraph className="align-justify">
+                  lógicamente, ni me acuerdo fiesta de qué fue{' '}
+                  <span className="large space-xl">ring ring ring ring!</span>
+                  <Break />
+                  en la que me agarré mi primer pedo{' '}
+                  <span className="large space-b">y para qué me dijo mamá</span>
+                  <Break />
+                  tenía doce, trece años{' '}
+                  <span className="large space-s">
+                     que no atendiera el teléfono en esos días
+                  </span>
+                  <Break />
+                  atrincherado en la barra de tragos{' '}
+                  <span className="large space-s">
+                     levanto el tubo y no digo ni h
+                  </span>
+                  <Break />
+                  un bartender al que no le importaba nada{' '}
+                  <span className="large space-m">
+                     <em>cornuda hija de re mil</em>
+                  </span>
+                  <Break />
+                  repartía banderas francesas:{' '}
+                  <span className="large space-xl">
+                     <em>puta no me cortes te voy a contar</em>
+                  </span>
+                  <Break />
+                  granada, piña y corazón{' '}
+                  <span className="large space-l">
+                     <em>cómo anoche me cogió toda la noche</em>
+                  </span>
+                  <Break />
+                  era todo un show{' '}
+                  <span className="large space-xxb">
+                     <em>y yo le hice todo lo que vos no le hacías</em>
+                  </span>
+                  <Break />y de un momento a otro{' '}
+                  <span className="large space-xg">
+                     <em>nunca supiste ni lo que le gusta</em>
+                  </span>
+                  <Break />
+                  estoy tirado atrás en la camioneta, feliz{' '}
+                  <span className="large space-s">
+                     <em>horas bajo a chupársela</em>
+                  </span>
+                  <Break />
+                  mi viejo salió de la joda y abrió la puerta{' '}
+                  <span className="large space-m">
+                     <em>y él me dice ay te amo</em>
+                  </span>
+                  <Break />
+                  (alguien le sopló mi hazaña al oído){' '}
+                  <span className="large space-xxb">
+                     <em>y me dice que conmigo</em>
+                  </span>
+                  <Break />
+                  la luz se encendió y abrí los ojos{' '}
+                  <span className="large space-g">
+                     <em>conoció por primera vez</em>
+                  </span>
+                  <Break />
+                  era alucinante cómo todo se corría{' '}
+                  <span className="large space-xs">
+                     <em>el sexo y el placer de verdad</em>
+                  </span>
+                  <Break />
+                  sentía por fin que el mundo gira y yo con él{' '}
+                  <span className="large space-l">
+                     <em>me agarra del pelo</em>
+                  </span>
+                  <Break />
+                  <em>-¿qué te pasa, Yonatan?</em>{' '}
+                  <span className="large space-b">
+                     <em>y me dice ay la otra -sí, así te dice</em>
+                  </span>
+                  <Break />
+                  <em>-nada, tengo sueño nomás</em>{' '}
+                  <span className="large space-xs">
+                     <em>porque la otra sos vos, puta barata-</em>
+                  </span>
+                  <Break />
+                  se subió adelante, bajó los vidrios y cerró la puerta{' '}
+                  <span className="large space-xs">
+                     <em>la otra nunca</em>
+                  </span>
+                  <Break />
+                  no me dijo ni me preguntó más nada{' '}
+                  <span className="large space-xb">
+                     <em>me hacía nada de esto</em>
+                  </span>
+                  <Break />
+                  se quedó ahí, el resto de la noche, conmigo{' '}
+                  <span className="large space-b">
+                     <em>mi amor, me dice</em>
+                  </span>
                </Paragraph>
             </ParagraphContainer>
 
-            <Separator className="small" />
-
-            <ParagraphContainer>
-               <Paragraph className="align-center">
-                  tendrías que verte ahí de renacuajo, nadando
+            <ParagraphContainer className="on-left-side mobile">
+               <Paragraph className="align-left">
+                  lógicamente, ni me acuerdo fiesta de qué fue
                   <Break />
-                  con ese impulso que conmueve a la Nada y la convierte en
-                  Espacio
+                  en la que me agarré mi primer pedo
                   <Break />
-                  y de su propio movimiento y trayectoria nace, como hijo único,
+                  tenía doce, trece años
                   <Break />
-                  el Tiempo, malcriado
+                  atrincherado en la barra de tragos
+                  <Break />
+                  un bartender al que no le importaba nada
+                  <Break />
+                  repartía banderas francesas:
+                  <Break />
+                  granada, piña y corazón
+                  <Break />
+                  era todo un show
+                  <Break />
+                  y de un momento a otro
+                  <Break />
+                  estoy tirado atrás en la camioneta, feliz
+                  <Break />
+                  mi viejo salió de la joda y abrió la puerta
+                  <Break />
+                  (alguien le sopló mi hazaña al oído)
+                  <Break />
+                  la luz se encendió y abrí los ojos
+                  <Break />
+                  era alucinante cómo todo se corría
+                  <Break />
+                  sentía por fin que el mundo gira y yo con él
+                  <Break />
+                  <em>-¿qué te pasa, Yonatan?</em>
+                  <Break />
+                  <em>-nada, tengo sueño nomás</em>
+                  <Break />
+                  se subió adelante, bajó los vidrios y cerró la puerta
+                  <Break />
+                  no me dijo ni me preguntó más nada
+                  <Break />
+                  se quedó ahí, el resto de la noche, conmigo
                </Paragraph>
-            </ParagraphContainer>
 
-            <Separator className="small" />
-
-            <ParagraphContainer>
-               <Paragraph className="align-center">
-                  quisiera verte la cara de hoy, hundida, por lo grave que está
-                  la Tierra
+               <Paragraph className="align-right">
+                  <span className="large">ring ring ring ring!</span>
                   <Break />
-                  y, mientras te cebo unos mates, contarte cómo ganaste esa
-                  carrera
+                  <span className="large">y para qué me dijo mamá</span>
                   <Break />
-                  tan épicamente
+                  <span className="large">
+                     que no atendiera el teléfono en esos días
+                  </span>
                   <Break />
-                  ibas como loco entre cientos de millones de locos
+                  <span className="large">levanto el tubo y no digo ni h</span>
                   <Break />
-                  pero vos eras el más loco
-               </Paragraph>
-            </ParagraphContainer>
-
-            <Separator className="small" />
-
-            <ParagraphContainer>
-               <Paragraph className="align-center">
-                  muchos te competían
+                  <span className="large">
+                     <em>cornuda hija de re mil</em>
+                  </span>
                   <Break />
-                  pero ¡cuántos más! se rendían ante tu determinación
+                  <span className="large">
+                     <em>puta no me cortes te voy a contar</em>
+                  </span>
                   <Break />
-                  y en silencio o no
+                  <span className="large">
+                     <em>cómo anoche me cogió toda la noche</em>
+                  </span>
                   <Break />
-                  te admiraban
-               </Paragraph>
-            </ParagraphContainer>
-
-            <Separator className="small" />
-
-            <ParagraphContainer>
-               <Paragraph className="align-center">
-                  ellos tuvieron que verte y vos tuviste que ser de su era
-               </Paragraph>
-            </ParagraphContainer>
-
-            <Separator className="small" />
-
-            <ParagraphContainer>
-               <Paragraph className="align-center">
-                  te necesitaban, para inspirarse,
+                  <span className="large">
+                     <em>y yo le hice todo lo que vos no le hacías</em>
+                  </span>
                   <Break />
-                  antes de lograrlo ellos también
-               </Paragraph>
-            </ParagraphContainer>
-
-            <Separator className="small" />
-
-            <ParagraphContainer>
-               <Paragraph className="align-center">
-                  quisiera tanto ahora ya más grandes
+                  <span className="large">
+                     <em>nunca supiste ni lo que le gusta</em>
+                  </span>
                   <Break />
-                  poder hablar con vos y escucharte contarme cómo es que entró
-                  el miedo
-                  <Break />y cómo se fue gestando esa rabia en tu corazón y esa
-                  tristeza en tu mente
-               </Paragraph>
-            </ParagraphContainer>
-
-            <Separator className="small" />
-
-            <ParagraphContainer>
-               <Paragraph className="align-center">
-                  que nos sentemos en el patio a tomar un vino o unas birras en
-                  verano
+                  <span className="large">
+                     <em>horas bajo a chupársela</em>
+                  </span>
                   <Break />
-                  y poner un recital de Divididos, y que lloremos sin sentirnos
-                  incómodos
-                  <Break />y que al amanecer todavía no podamos superar cómo
-                  ganaste esa carrera
-               </Paragraph>
-            </ParagraphContainer>
-
-            <Separator className="small" />
-
-            <ParagraphContainer>
-               <Paragraph className="align-center">
-                  quisiera tanto que puedas celebrarlo, como lo celebro yo,
-                  todos tus días
-               </Paragraph>
-            </ParagraphContainer>
-
-            <Separator className="small" />
-
-            <ParagraphContainer>
-               <Paragraph className="align-center">
-                  simplemente tendrías que haberte visto…
+                  <span className="large">
+                     <em>y él me dice ay te amo</em>
+                  </span>
                   <Break />
-                  quizá sólo así también te resulte absurdo oírte decir
+                  <span className="large">
+                     <em>y me dice que conmigo</em>
+                  </span>
                   <Break />
-                  que no pediste ser
-               </Paragraph>
-            </ParagraphContainer>
-
-            <Separator className="small" />
-
-            <ParagraphContainer>
-               <Paragraph className="align-center">
-                  tendrías que ver
+                  <span className="large">
+                     <em>conoció por primera vez</em>
+                  </span>
                   <Break />
-                  (como todos, detrás tuyo en el camino, vimos)
+                  <span className="large">
+                     <em>el sexo y el placer de verdad</em>
+                  </span>
                   <Break />
-                  cuánto lo querías.
+                  <span className="large">
+                     <em>me agarra del pelo</em>
+                  </span>
+                  <Break />
+                  <span className="large">
+                     <em>y me dice ay la otra -sí, así te dice</em>
+                  </span>
+                  <Break />
+                  <span className="large">
+                     <em>porque la otra sos vos, puta barata-</em>
+                  </span>
+                  <Break />
+                  <span className="large">
+                     <em>la otra nunca</em>
+                  </span>
+                  <Break />
+                  <span className="large">
+                     <em>me hacía nada de esto</em>
+                  </span>
+                  <Break />
+                  <span className="large">
+                     <em>mi amor, me dice</em>
+                  </span>
                </Paragraph>
             </ParagraphContainer>
 

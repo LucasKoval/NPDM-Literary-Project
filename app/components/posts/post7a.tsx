@@ -15,7 +15,7 @@ import {
    Break,
 } from './posts-styles';
 
-export default function Post7() {
+export default function Post7A() {
    return (
       <>
          <PostSection id="page-9">

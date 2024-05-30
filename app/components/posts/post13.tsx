@@ -20,9 +20,9 @@ import {
 export default function Post13() {
    return (
       <>
-         <PostSection id="page-15">
+         <PostSection id="page-17">
             <TitleContainer>
-               <H4 className="big">VASECTOMY MEN</H4>
+               <H4 className="big">MERESER</H4>
             </TitleContainer>
 
             <Separator />
@@ -30,12 +30,8 @@ export default function Post13() {
             <Separator className="mobile" />
 
             <PhraseContainer>
-               <Phrase>
-                  living here in Babylon is
-                  <Break />
-                  oh, so dificult
-               </Phrase>
-               <Author>-DIVIDIDOS POR LA FELICIDAD</Author>
+               <Phrase>Nosotros, que derrochamos dolores.</Phrase>
+               <Author>-ELEGÍAS DE DUINO</Author>
             </PhraseContainer>
 
             <Separator />
@@ -44,127 +40,13 @@ export default function Post13() {
 
             <ParagraphContainer>
                <Paragraph className="align-center">
-                  we are the vasectomy men
+                  sólo por nacer
                   <Break />
-                  man, we don’t understand
+                  nos merecemos todo
                   <Break />
-                  why d’you prefer to being
-                  <Break />a slave than a free man
+                  lo que nos pasa
                </Paragraph>
             </ParagraphContainer>
-            <Tooltip
-               content={
-                  <ParagraphContainer>
-                     <Paragraph className="align-center">
-                        we are the vasectomy men
-                        <Break />
-                        man, we don’t understand
-                        <Break />
-                        why d’you prefer to being
-                        <Break />a slave than a free man
-                     </Paragraph>
-                  </ParagraphContainer>
-               }
-               placement="top"
-            >
-               <TooltipButton>?</TooltipButton>
-            </Tooltip>
-
-            <Separator className="small" />
-
-            <ParagraphContainer>
-               <Paragraph className="align-center">
-                  cut your wires, my brother
-                  <Break />
-                  don’t jeopardize your freedom
-                  <Break />
-                  live this life like it’s the only one
-                  <Break />
-                  but knowing deeply that it’s not
-               </Paragraph>
-            </ParagraphContainer>
-            <Tooltip
-               content={
-                  <ParagraphContainer>
-                     <Paragraph className="align-center">
-                        cut your wires, my brother
-                        <Break />
-                        don’t jeopardize your freedom
-                        <Break />
-                        live this life like it’s the only one
-                        <Break />
-                        but knowing deeply that it’s not
-                     </Paragraph>
-                  </ParagraphContainer>
-               }
-               placement="top"
-            >
-               <TooltipButton>?</TooltipButton>
-            </Tooltip>
-
-            <Separator className="small" />
-
-            <ParagraphContainer>
-               <Paragraph className="align-center">
-                  you will have many many lives
-                  <Break />
-                  and you already had them so many,
-                  <Break />
-                  so this life of today, use it to live it
-                  <Break />
-                  by and for you, and you only
-               </Paragraph>
-            </ParagraphContainer>
-            <Tooltip
-               content={
-                  <ParagraphContainer>
-                     <Paragraph className="align-center">
-                        you will have many many lives
-                        <Break />
-                        and you already had them so many,
-                        <Break />
-                        so this life of today, use it to live it
-                        <Break />
-                        by and for you, and you only
-                     </Paragraph>
-                  </ParagraphContainer>
-               }
-               placement="top"
-            >
-               <TooltipButton>?</TooltipButton>
-            </Tooltip>
-
-            <Separator className="small" />
-
-            <ParagraphContainer>
-               <Paragraph className="align-center">
-                  you were a terrible dad before
-                  <Break />
-                  and you will be a great dad after,
-                  <Break />
-                  but now you need to be yourself:
-                  <Break />
-                  father of nothing, son of Everything.
-               </Paragraph>
-            </ParagraphContainer>
-            <Tooltip
-               content={
-                  <ParagraphContainer>
-                     <Paragraph className="align-center">
-                        you were a terrible dad before
-                        <Break />
-                        and you will be a great dad after,
-                        <Break />
-                        but now you need to be yourself:
-                        <Break />
-                        father of nothing, son of Everything.
-                     </Paragraph>
-                  </ParagraphContainer>
-               }
-               placement="top"
-            >
-               <TooltipButton>?</TooltipButton>
-            </Tooltip>
 
             <Separator />
             <Separator />
