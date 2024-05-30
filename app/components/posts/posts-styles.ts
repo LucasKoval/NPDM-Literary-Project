@@ -218,6 +218,24 @@ export const Paragraph = styled.p`
       &.space-xxl {
          padding-left: 20px;
       }
+      &.space-b {
+         padding-left: 26px;
+      }
+      &.space-xb {
+         padding-left: 32px;
+      }
+      &.space-xxb {
+         padding-left: 38px;
+      }
+      &.space-g {
+         padding-left: 48px;
+      }
+      &.space-xg {
+         padding-left: 54px;
+      }
+      &.space-xxg {
+         padding-left: 54px;
+      }
    }
 
    @media only screen and ${device.sm} {

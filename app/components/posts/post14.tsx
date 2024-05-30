@@ -47,42 +47,42 @@ export default function Post14() {
             <ParagraphContainer className="desktop">
                <Paragraph className="align-justify">
                   lógicamente, ni me acuerdo fiesta de qué fue{' '}
-                  <span className="large space-m">ring ring ring ring!</span>
+                  <span className="large space-xl">ring ring ring ring!</span>
                   <Break />
                   en la que me agarré mi primer pedo{' '}
-                  <span className="large space-l">y para qué me dijo mamá</span>
+                  <span className="large space-b">y para qué me dijo mamá</span>
                   <Break />
                   tenía doce, trece años{' '}
                   <span className="large space-s">
                      que no atendiera el teléfono en esos días
                   </span>
                   <Break />
-                  atrincherado en la barra de tragos
-                  <span className="large space-xs">
+                  atrincherado en la barra de tragos{' '}
+                  <span className="large space-s">
                      levanto el tubo y no digo ni h
                   </span>
                   <Break />
-                  un bartender al que no le importaba nada
-                  <span className="large space-xl">
+                  un bartender al que no le importaba nada{' '}
+                  <span className="large space-m">
                      <em>cornuda hija de re mil</em>
                   </span>
                   <Break />
                   repartía banderas francesas:{' '}
-                  <span className="large space-s">
+                  <span className="large space-xl">
                      <em>puta no me cortes te voy a contar</em>
                   </span>
                   <Break />
                   granada, piña y corazón{' '}
-                  <span className="large">
+                  <span className="large space-l">
                      <em>cómo anoche me cogió toda la noche</em>
                   </span>
                   <Break />
                   era todo un show{' '}
-                  <span className="large space-l">
+                  <span className="large space-xxb">
                      <em>y yo le hice todo lo que vos no le hacías</em>
                   </span>
                   <Break />y de un momento a otro{' '}
-                  <span className="large space-xs">
+                  <span className="large space-xg">
                      <em>nunca supiste ni lo que le gusta</em>
                   </span>
                   <Break />
@@ -92,52 +92,52 @@ export default function Post14() {
                   </span>
                   <Break />
                   mi viejo salió de la joda y abrió la puerta{' '}
-                  <span className="large space-s">
+                  <span className="large space-m">
                      <em>y él me dice ay te amo</em>
                   </span>
                   <Break />
                   (alguien le sopló mi hazaña al oído){' '}
-                  <span className="large space-l">
+                  <span className="large space-xxb">
                      <em>y me dice que conmigo</em>
                   </span>
                   <Break />
                   la luz se encendió y abrí los ojos{' '}
-                  <span className="large space-xs">
+                  <span className="large space-g">
                      <em>conoció por primera vez</em>
                   </span>
                   <Break />
                   era alucinante cómo todo se corría{' '}
-                  <span className="large space-xl">
+                  <span className="large space-xs">
                      <em>el sexo y el placer de verdad</em>
                   </span>
                   <Break />
                   sentía por fin que el mundo gira y yo con él{' '}
-                  <span className="large space-m">
+                  <span className="large space-l">
                      <em>me agarra del pelo</em>
                   </span>
                   <Break />
                   <em>-¿qué te pasa, Yonatan?</em>{' '}
-                  <span className="large space-s">
+                  <span className="large space-b">
                      <em>y me dice ay la otra -sí, así te dice</em>
                   </span>
                   <Break />
                   <em>-nada, tengo sueño nomás</em>{' '}
-                  <span className="large space-xxl">
+                  <span className="large space-xs">
                      <em>porque la otra sos vos, puta barata-</em>
                   </span>
                   <Break />
                   se subió adelante, bajó los vidrios y cerró la puerta{' '}
-                  <span className="large">
+                  <span className="large space-xs">
                      <em>la otra nunca</em>
                   </span>
                   <Break />
                   no me dijo ni me preguntó más nada{' '}
-                  <span className="large space-xxl">
+                  <span className="large space-xb">
                      <em>me hacía nada de esto</em>
                   </span>
                   <Break />
                   se quedó ahí, el resto de la noche, conmigo{' '}
-                  <span className="large space-m">
+                  <span className="large space-b">
                      <em>mi amor, me dice</em>
                   </span>
                </Paragraph>
