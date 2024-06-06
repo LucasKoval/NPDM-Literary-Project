@@ -29,10 +29,11 @@ export default function Post15() {
 
             <PhraseContainer>
                <Phrase>
-                  xxx
+                  voy a exagerar
                   <Break />
+                  mi fiebre no es tan alta
                </Phrase>
-               <Author>-XXX</Author>
+               <Author>-OKTUBRE</Author>
             </PhraseContainer>
 
             <Separator />
@@ -41,147 +42,150 @@ export default function Post15() {
 
             <ParagraphContainer className="desktop">
                <Paragraph className="align-justify">
-                  xxx<span className="large space-xl"></span>
+                  mi primer pucho me lo convidó un perso
+                  <span className="large space-xl">timbre timbre</span>
                   <Break />
-                  xxx <span className="large space-b"></span>
+                  vivía enfrente al cementerio
+                  <span className="large space-b">
+                     me escondí en el counter
+                  </span>
                   <Break />
-                  xxx<span className="large space-s"></span>
+                  jamás le respondí si me siento solo a veces
+                  <span className="large space-s">y bajé a abrir</span>
                   <Break />
-                  xxx
-                  <span className="large space-s"></span>
+                  ni le voy a devolver los casets de Okupas
+                  <span className="large space-s">era el del correo</span>
                   <Break />
-                  xxx
-                  <span className="large space-m"></span>
+                  me lo ofreció en un gesto doloroso, vivo
+                  <span className="large space-m">-¿está tu mamá?</span>
                   <Break />
-                  xxx
-                  <span className="large space-xl"></span>
+                  fue extender hacia mí
+                  <span className="large space-xl">
+                     -no -le dije y me dejó un paquete
+                  </span>
                   <Break />
-                  xxx
-                  <span className="large space-l"></span>
+                  su camel diez y sólo cuando dije sí
+                  <span className="large space-l">obvio que lo abrí ahí</span>
                   <Break />
-                  xxx <span className="large space-xxb"></span>
+                  el índice abrió la caja el pulgar lo deslizó
+                  <span className="large space-xxb">seguro un terro</span>
                   <Break />
-                  xxx
-                  <span className="large space-xg"></span>
+                  me dio el encendedor, que lo encienda yo
+                  <span className="large space-xg">ya me mató</span>
                   <Break />
-                  xxx
-                  <span className="large space-s"></span>
+                  tal como dijo que pasaría: tosí, un poco
+                  <span className="large space-s">con cuchillo</span>
                   <Break />
-                  xxx
-                  <span className="large space-m"></span>
+                  él sonrío entre orgullo, goce y malicia
+                  <span className="large space-m">era un consolador</span>
                   <Break />
-                  xxx
-                  <span className="large space-xxb"></span>
+                  me dijo vamos a pedir algo, tengo una lija
+                  <span className="large space-xxb">y una carta</span>
                   <Break />
-                  xxx
-                  <span className="large space-g"></span>
+                  me mareé y él sonrió con triste expresión
+                  <span className="large space-g">supuestamente</span>
                   <Break />
-                  xxx
-                  <span className="large space-xs"></span>
+                  caminábamos, hizo entonces su pregunta
+                  <span className="large space-xs">de la actual</span>
                   <Break />
-                  xxx
-                  <span className="large space-l"></span>
+                  él se prendió otro y yo acepté otro, pero
+                  <span className="large space-l">mujer de papá</span>
                   <Break />
-                  xxx
-                  <span className="large space-b"></span>
+                  me dijo tranqui, juntá ganas, disfrutale
+                  <span className="large space-b">pero era obvio</span>
                   <Break />
-                  xxx
-                  <span className="large space-xs"></span>
+                  yendo a buscar las burguers, me lo prendí
+                  <span className="large space-xs">que era ella</span>
                   <Break />
-                  xxx
-                  <span className="large space-xs"></span>
+                  él prendió otro; lo miró y, apenas, me dijo
+                  <span className="large space-xs">estaba escrita</span>
                   <Break />
-                  xxx
-                  <span className="large space-xb"></span>
-                  <Break />
-                  xxx
-                  <span className="large space-b"></span>
+                  loco vos sabés que éste es mi compañero
+                  <span className="large space-xb">tan cruelmente</span>
                </Paragraph>
             </ParagraphContainer>
 
             <ParagraphContainer className="on-left-side mobile">
                <Paragraph className="align-left">
-                  xxx
+                  mi primer pucho me lo convidó un perso
                   <Break />
-                  xxx
+                  vivía enfrente al cementerio
                   <Break />
-                  xxx
+                  jamás le respondí si me siento solo a veces
                   <Break />
-                  xxx
+                  ni le voy a devolver los casets de Okupas
                   <Break />
-                  xxx
+                  me lo ofreció en un gesto doloroso, vivo
                   <Break />
-                  xxx
+                  fue extender hacia mí
                   <Break />
-                  xxx
+                  su camel diez y sólo cuando dije sí
                   <Break />
-                  xxx
+                  el índice abrió la caja el pulgar lo deslizó
                   <Break />
-                  xxx
+                  me dio el encendedor, que lo encienda yo
                   <Break />
-                  xxx
+                  tal como dijo que pasaría: tosí, un poco
                   <Break />
-                  xxx
+                  él sonrío entre orgullo, goce y malicia
                   <Break />
-                  xxx
+                  me dijo vamos a pedir algo, tengo una lija
                   <Break />
-                  xxx
+                  me mareé y él sonrió con triste expresión
                   <Break />
-                  xxx
+                  caminábamos, hizo entonces su pregunta
                   <Break />
-                  xxx
+                  él se prendió otro y yo acepté otro, pero
                   <Break />
-                  xxx
+                  me dijo tranqui, juntá ganas, disfrutale
                   <Break />
-                  xxx
+                  yendo a buscar las burguers, me lo prendí
                   <Break />
-                  xxx
+                  él prendió otro; lo miró y, apenas, me dijo
                   <Break />
-                  xxx
-                  <Break />
-                  xxx
+                  loco vos sabés que éste es mi compañero
                </Paragraph>
 
                <Paragraph className="align-right">
-                  <span className="large">xxx</span>
+                  <span className="large">timbre timbre</span>
                   <Break />
-                  <span className="large">xxx</span>
+                  <span className="large">me escondí en el counter</span>
                   <Break />
-                  <span className="large">xxx</span>
+                  <span className="large">y bajé a abrir</span>
                   <Break />
-                  <span className="large">xxx</span>
+                  <span className="large">era el del correo</span>
                   <Break />
-                  <span className="large">xxx</span>
+                  <span className="large">-¿está tu mamá?</span>
                   <Break />
-                  <span className="large">xxx</span>
+                  <span className="large">
+                     -no -le dije y me dejó un paquete
+                  </span>
                   <Break />
-                  <span className="large">xxx</span>
+                  <span className="large">obvio que lo abrí ahí</span>
                   <Break />
-                  <span className="large">xxx</span>
+                  <span className="large">seguro un terro</span>
                   <Break />
-                  <span className="large">xxx</span>
+                  <span className="large">ya me mató</span>
                   <Break />
-                  <span className="large">xxx</span>
+                  <span className="large">con cuchillo</span>
                   <Break />
-                  <span className="large">xxx</span>
+                  <span className="large">era un consolador</span>
                   <Break />
-                  <span className="large">xxx</span>
+                  <span className="large">y una carta</span>
                   <Break />
-                  <span className="large">xxx</span>
+                  <span className="large">supuestamente</span>
                   <Break />
-                  <span className="large">xxx</span>
+                  <span className="large">de la actual</span>
                   <Break />
-                  <span className="large">xxx</span>
+                  <span className="large">mujer de papá</span>
                   <Break />
-                  <span className="large">xxx</span>
+                  <span className="large">pero era obvio</span>
                   <Break />
-                  <span className="large">xxx</span>
+                  <span className="large">que era ella</span>
                   <Break />
-                  <span className="large">xxx</span>
+                  <span className="large">estaba escrita</span>
                   <Break />
-                  <span className="large">xxx</span>
-                  <Break />
-                  <span className="large">xxx</span>
+                  <span className="large">tan cruelmente</span>
                </Paragraph>
             </ParagraphContainer>
 
