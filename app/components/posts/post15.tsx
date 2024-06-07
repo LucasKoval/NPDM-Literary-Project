@@ -43,65 +43,63 @@ export default function Post15() {
             <ParagraphContainer className="desktop">
                <Paragraph className="align-justify">
                   mi primer pucho me lo convidó un perso
-                  <span className="large space-xl">timbre timbre</span>
+                  <span className="large space-">timbre timbre</span>
                   <Break />
                   vivía enfrente al cementerio
-                  <span className="large space-b">
-                     me escondí en el counter
-                  </span>
+                  <span className="large space-">me escondí en el counter</span>
                   <Break />
                   jamás le respondí si me siento solo a veces
-                  <span className="large space-s">y bajé a abrir</span>
+                  <span className="large space-">y bajé a abrir</span>
                   <Break />
                   ni le voy a devolver los casets de Okupas
-                  <span className="large space-s">era el del correo</span>
+                  <span className="large space-m">era el del correo</span>
                   <Break />
                   me lo ofreció en un gesto doloroso, vivo
-                  <span className="large space-m">-¿está tu mamá?</span>
+                  <span className="large space-">-¿está tu mamá?</span>
                   <Break />
                   fue extender hacia mí
-                  <span className="large space-xl">
+                  <span className="large space-">
                      -no -le dije y me dejó un paquete
                   </span>
                   <Break />
                   su camel diez y sólo cuando dije sí
-                  <span className="large space-l">obvio que lo abrí ahí</span>
+                  <span className="large space-">obvio que lo abrí ahí</span>
                   <Break />
                   el índice abrió la caja el pulgar lo deslizó
-                  <span className="large space-xxb">seguro un terro</span>
+                  <span className="large space-">seguro un terro</span>
                   <Break />
                   me dio el encendedor, que lo encienda yo
-                  <span className="large space-xg">ya me mató</span>
+                  <span className="large space-">ya me mató</span>
                   <Break />
                   tal como dijo que pasaría: tosí, un poco
-                  <span className="large space-s">con cuchillo</span>
+                  <span className="large space-">con cuchillo</span>
                   <Break />
                   él sonrío entre orgullo, goce y malicia
-                  <span className="large space-m">era un consolador</span>
+                  <span className="large space-">era un consolador</span>
                   <Break />
                   me dijo vamos a pedir algo, tengo una lija
-                  <span className="large space-xxb">y una carta</span>
+                  <span className="large space-">y una carta</span>
                   <Break />
                   me mareé y él sonrió con triste expresión
-                  <span className="large space-g">supuestamente</span>
+                  <span className="large space-">supuestamente</span>
                   <Break />
                   caminábamos, hizo entonces su pregunta
-                  <span className="large space-xs">de la actual</span>
+                  <span className="large space-">de la actual</span>
                   <Break />
                   él se prendió otro y yo acepté otro, pero
-                  <span className="large space-l">mujer de papá</span>
+                  <span className="large space-">mujer de papá</span>
                   <Break />
                   me dijo tranqui, juntá ganas, disfrutale
-                  <span className="large space-b">pero era obvio</span>
+                  <span className="large space-">pero era obvio</span>
                   <Break />
                   yendo a buscar las burguers, me lo prendí
-                  <span className="large space-xs">que era ella</span>
+                  <span className="large space-">que era ella</span>
                   <Break />
                   él prendió otro; lo miró y, apenas, me dijo
-                  <span className="large space-xs">estaba escrita</span>
+                  <span className="large space-">estaba escrita</span>
                   <Break />
                   loco vos sabés que éste es mi compañero
-                  <span className="large space-xb">tan cruelmente</span>
+                  <span className="large space-">tan cruelmente</span>
                </Paragraph>
             </ParagraphContainer>
 
