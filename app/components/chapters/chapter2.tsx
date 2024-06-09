@@ -44,7 +44,6 @@ export default function Chapter2() {
          <Post12 />
          <Post13 />
          <Post14 />
-         <Post15 />
          {showNewPost && <Post15 />}
       </>
    );
