@@ -10,12 +10,14 @@ import Post12 from '../posts/post12';
 import Post13 from '../posts/post13';
 import Post14 from '../posts/post14';
 import Post15 from '../posts/post15';
+import Post16 from '../posts/post16';
+import Post17 from '../posts/post17';
 
 export default function Chapter2() {
    let currentDate = new Date();
-   let newPostDate = new Date('2024-06-09T16:00:00');
-   let targetDate = new Date('2024-06-09T16:00:00').getTime();
-   /* Next date to this one: 2024-06-16T16:00:00 */
+   let newPostDate = new Date('2024-06-20T16:00:00');
+   let targetDate = new Date('2024-06-20T16:00:00').getTime();
+   /* Next date to this one: 2024-06-24T16:00:00 */
    const [timeLeft, setTimeLeft] = useState(targetDate - Date.now());
    const [showNewPost, setShowNewPost] = useState(false);
 
@@ -44,7 +46,9 @@ export default function Chapter2() {
          <Post12 />
          <Post13 />
          <Post14 />
-         {showNewPost && <Post15 />}
+         <Post15 />
+         <Post16 />
+         {showNewPost && <Post17 />}
       </>
    );
 }
