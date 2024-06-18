@@ -6,10 +6,10 @@ import { Break } from './posts/posts-styles';
 
 const CountdownTimer: React.FC = () => {
    const currentDate = new Date();
-   const targetDate = new Date('2024-06-20T16:00:00');
-   const targetDateTime = new Date('2024-06-20T16:00:00').getTime();
-   const nextPostDate: any = new Date('2024-06-24T16:00:00');
-   /* Next date to this one: 2024-06-24T16:00:00 */
+   const targetDate = new Date('2024-07-20T16:00:00');
+   const targetDateTime = new Date('2024-07-20T16:00:00').getTime();
+   const nextPostDate: any = new Date('2024-07-24T16:00:00');
+   /* Next date to this one: 2024-07-24T16:00:00 */
    const [timeLeft, setTimeLeft] = useState(targetDateTime - Date.now());
    const [newPostTitle, setNewPostTitle] = useState('LABANDA'); // Current Post Title here
    let showNewPost: boolean = false;
