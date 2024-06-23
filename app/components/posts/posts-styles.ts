@@ -239,7 +239,7 @@ export const Paragraph = styled.p`
    }
 
    @media only screen and ${device.sm} {
-      font-size: 12px;
+      font-size: 10px;
 
       &.mobile {
          display: block;
@@ -249,7 +249,7 @@ export const Paragraph = styled.p`
       }
 
       & span.large {
-         font-size: 14px;
+         font-size: 12px;
 
          &.space-xs {
             padding-left: 0px;
