@@ -40,7 +40,7 @@ export default function Post15() {
             <Separator />
             <Separator className="mobile" />
 
-            <ParagraphContainer className="desktop">
+            <ParagraphContainer className="">
                <Paragraph className="align-justify">
                   mi primer pucho me lo convidó un perso
                   <span className="large space-xb">timbre timbre</span>
@@ -107,7 +107,7 @@ export default function Post15() {
                </Paragraph>
             </ParagraphContainer>
 
-            <ParagraphContainer className="on-left-side mobile">
+            <ParagraphContainer className="on-left-side desktop">
                <Paragraph className="align-left">
                   mi primer pucho me lo convidó un perso
                   <Break />
