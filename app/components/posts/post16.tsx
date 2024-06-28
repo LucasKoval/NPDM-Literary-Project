@@ -177,8 +177,8 @@ export default function Post16() {
                   hay especies de hongos que tienen solamente unos cien
                   individuos en el mundo
                   <Break />
-                  y digo individuos porque ya ni personas, se les ha caídos toda
-                  máscara y vuelan
+                  y digo individuos porque ya ni personas son, se les ha caído
+                  toda máscara y vuelan
                   <Break />
                   sobre nosotros)
                </Paragraph>
@@ -260,7 +260,7 @@ export default function Post16() {
                   Ella, se muera
                   <Break />
                   pero creo que falta tanto para eso que es absurdo ponerse a
-                  pensar en eso
+                  pensar en ello
                </Paragraph>
             </ParagraphContainer>
 
