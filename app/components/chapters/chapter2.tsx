@@ -48,6 +48,7 @@ export default function Chapter2() {
          <Post14 />
          <Post15 />
          <Post16 />
+         <Post17 />
          {showNewPost && <Post17 />}
       </>
    );
