@@ -107,7 +107,7 @@ export default function Post15() {
                </Paragraph>
             </ParagraphContainer>
 
-            <ParagraphContainer className="on-left-side desktop">
+            <ParagraphContainer className="on-left-side mobile">
                <Paragraph className="align-left">
                   mi primer pucho me lo convidó un perso
                   <Break />

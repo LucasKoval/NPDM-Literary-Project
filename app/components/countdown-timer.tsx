@@ -8,8 +8,8 @@ const CountdownTimer: React.FC = () => {
    const currentDate = new Date();
    const targetDate = new Date('2024-07-23T16:00:00');
    const targetDateTime = new Date('2024-07-23T16:00:00').getTime();
-   const nextPostDate: any = new Date('2024-08-20T16:00:00');
-   /* Next date to this one: 2024-07-24T16:00:00 */
+   const nextPostDate: any = new Date('2024-09-01T16:00:00');
+   /* Next date to this one: 2024-09-01T16:00:00 */
    const [timeLeft, setTimeLeft] = useState(targetDateTime - Date.now());
    const [newPostTitle, setNewPostTitle] = useState('LABANDA'); // Current Post Title here
    let showNewPost: boolean = false;
@@ -28,8 +28,8 @@ const CountdownTimer: React.FC = () => {
          if (newTimeLeft <= 0) {
             newTimeLeft = nextPostDate - Date.now();
             setTimeLeft(newTimeLeft);
-            setNewPostTitle('LABANDA'); // New Post Title here
-            /* Next title to this one: LABANDA */
+            setNewPostTitle('ESCRITOR'); // New Post Title here
+            /* Next title to this one: ESCRITOR */
 
             clearInterval(interval);
          }
