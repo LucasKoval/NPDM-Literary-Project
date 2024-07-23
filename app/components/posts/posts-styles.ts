@@ -37,6 +37,10 @@ export const ParagraphContainer = styled.div`
    &.desktop {
       display: flex !important;
    }
+   &.answer {
+      max-width: 367px;
+      justify-content: end;
+   }
 
    @media only screen and ${device.sm} {
       &.mobile {
