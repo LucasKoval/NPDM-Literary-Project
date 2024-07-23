@@ -37,6 +37,10 @@ export const ParagraphContainer = styled.div`
    &.desktop {
       display: flex !important;
    }
+   &.answer {
+      max-width: 367px;
+      justify-content: end;
+   }
 
    @media only screen and ${device.sm} {
       &.mobile {
@@ -69,6 +73,10 @@ export const Author = styled.p`
    font-family: 'Times New Roman', Times, serif;
    font-size: 19px;
    margin-top: 2.5rem;
+
+   &.title {
+      margin-top: 0;
+   }
 `;
 
 export const MainTitle = styled.h1`
