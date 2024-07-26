@@ -398,15 +398,14 @@ export default function Post17() {
                   para sí “Guerra particular…”; la segunda, relojeándome por el
                   retrovisor, silbaba la melodía de <em>Lo mejor del amor</em>.
                   nos dejaron rápidamente a los dos a las puertas del Torre H,{' '}
-                  <em>el</em>
-                  hotel de la ciudad, piso cuarenta, una triple decente; más
-                  tarde vino Nic con un bolso: tenía ropa cómoda, una nintendo
-                  64, tres controles y algunos juegos (y era hermoso desayunar
-                  así, realmente como reyes; contemplar la ciudad, callados,
-                  desde la H; ganar con Argentina (¡a Alemania en la Final!) el
-                  Mundial en el <em>World Cup 98</em>, y conversar profundo, a
-                  lo largo de un Mario Party de 50 turnos o estando sentados
-                  horas en la pileta).
+                  <em>el</em> hotel de la ciudad, piso cuarenta, una triple
+                  decente; más tarde vino Nic con un bolso: tenía ropa cómoda,
+                  una nintendo 64, tres controles y algunos juegos (y era
+                  hermoso desayunar así, realmente como reyes; contemplar la
+                  ciudad, callados, desde la H; ganar con Argentina (¡a Alemania
+                  en la Final!) el Mundial en el <em>World Cup 98</em>, y
+                  conversar profundo, a lo largo de un <em>Mario Party</em> de
+                  50 turnos o estando sentados horas en la pileta).
                </Paragraph>
             </ParagraphContainer>
 
