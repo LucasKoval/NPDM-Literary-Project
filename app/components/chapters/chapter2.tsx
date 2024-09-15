@@ -16,8 +16,8 @@ import Post18 from '../posts/post18';
 
 export default function Chapter2() {
    let currentDate = new Date();
-   let newPostDate = new Date('2024-09-15T16:00:00');
-   let targetDate = new Date('2024-09-15T16:00:00').getTime();
+   let newPostDate = new Date('2024-09-22T16:00:00');
+   let targetDate = new Date('2024-09-22T16:00:00').getTime();
    /* Next date to this one: 2024-09-15T16:00:00 */
    const [timeLeft, setTimeLeft] = useState(targetDate - Date.now());
    const [showNewPost, setShowNewPost] = useState(false);
