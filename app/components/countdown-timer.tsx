@@ -6,9 +6,9 @@ import { Break } from './posts/posts-styles';
 
 const CountdownTimer: React.FC = () => {
    const currentDate = new Date();
-   const targetDate = new Date('2024-09-22T16:00:00');
-   const targetDateTime = new Date('2024-09-22T16:00:00').getTime();
-   const nextPostDate: any = new Date('2024-10-15T16:00:00');
+   const targetDate = new Date('2024-10-22T16:00:00');
+   const targetDateTime = new Date('2024-10-22T16:00:00').getTime();
+   const nextPostDate: any = new Date('2024-10-30T16:00:00');
    /* Next date to this one: 2024-10-15T16:00:00 */
    const [timeLeft, setTimeLeft] = useState(targetDateTime - Date.now());
    const [newPostTitle, setNewPostTitle] = useState('PARTIDAS'); // Current Post Title here
