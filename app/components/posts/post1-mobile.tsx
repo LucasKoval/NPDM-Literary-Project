@@ -19,7 +19,7 @@ export default function Post1() {
    return (
       <>
          <PostSection id="page-1">
-            <ParagraphContainer className="on-left-side cutted">
+            <ParagraphContainer className="on-left-side">
                <Paragraph>
                   <em>hacé feliz lo tuyo, pero ordená tu pieza</em>; enciendo mi
                   equipo; suspiro otra vez
@@ -69,7 +69,7 @@ export default function Post1() {
             <Separator className="mobile" />
 
             <TitleContainer>
-               <MainTitle className="main-title-4">I</MainTitle>
+               <H2 className="big">I</H2>
             </TitleContainer>
 
             <Separator />
@@ -103,12 +103,141 @@ export default function Post1() {
 
             <Separator />
             <Separator />
+            <Separator />
             <Separator className="mobile" />
 
             <TitleContainer>
-               <H4>1/40</H4>
+               <H2>
+                  NIÑEZ
+                  <Break />
+                  O
+                  <Break />
+                  EL LIBRO DE LA
+                  <Break />
+                  CONCEPCIÓN
+               </H2>
             </TitleContainer>
 
+            <Separator className="small" />
+            <Separator className="small" />
+            <Separator className="small" />
+
+            <TitleContainer>
+               <H4 className="small">( 2004 )</H4>
+            </TitleContainer>
+
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
+
+            <TitleContainer>
+               <H5>presenta</H5>
+            </TitleContainer>
+
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
+
+            <TitleContainer>
+               <H2>
+                  COPULÆN
+                  <Break />
+                  SONETOS
+               </H2>
+
+               <Separator className="small" />
+               <Separator className="small" />
+               <Separator className="small" />
+
+               <H5>( IN, OUT )</H5>
+            </TitleContainer>
+
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
+
+            <TitleContainer>
+               <H2>
+                  DIÁCORO
+                  <Break />
+                  <H3 className="subtitle">
+                     ( ENTRE MUSAS
+                     <Break /> Y DEMONIOS )
+                  </H3>
+               </H2>
+
+               <Separator className="small" />
+               <Separator className="small" />
+               <Separator className="small" />
+
+               <H5>( MUSAS, DEMONIOS, EPODOS )</H5>
+            </TitleContainer>
+
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
+
+            <TitleContainer>
+               <H2>
+                  CONTACTOS DE
+                  <Break />
+                  EMERGENCIA
+                  <H3 className="subtitle">
+                     {' '}
+                     ( Ó
+                     <Break />
+                     TRAUMATOLOGÍA )
+                  </H3>
+               </H2>
+
+               <Separator className="small" />
+               <Separator className="small" />
+               <Separator className="small" />
+
+               <H5>( BRO, MÁ, PÁ )</H5>
+            </TitleContainer>
+
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
+
+            <TitleContainer>
+               <H2>
+                  DOS
+                  <Break />
+                  PARA EL VIAJE
+               </H2>
+
+               <Separator className="small" />
+               <Separator className="small" />
+               <Separator className="small" />
+
+               <H5>( NAVE, PILOTO )</H5>
+            </TitleContainer>
+
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
+
+            <PhraseContainer>
+               <Phrase>
+                  Figúrate
+                  <Break />
+                  que no eres más un hombre
+               </Phrase>
+               <Author>-ALMENDRA</Author>
+            </PhraseContainer>
+
+            <Separator />
+            <Separator />
+            <Separator />
+            <Separator className="mobile" />
+
+            <TitleContainer>
+               <H4>IN</H4>
+            </TitleContainer>
+
+            <Separator />
             <Separator />
             <Separator className="mobile" />
 
@@ -119,13 +248,6 @@ export default function Post1() {
                </Phrase>
                <Author>-AMOR AMARILLO</Author>
             </PhraseContainer>
-
-            <Separator />
-            <Separator className="mobile" />
-
-            <TitleContainer>
-               <H2>IN</H2>
-            </TitleContainer>
 
             <Separator />
             <Separator />

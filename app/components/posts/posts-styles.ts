@@ -41,6 +41,9 @@ export const ParagraphContainer = styled.div`
       max-width: 367px;
       justify-content: end;
    }
+   &.cutted {
+      margin-top: -32px;
+   }
 
    @media only screen and ${device.sm} {
       &.mobile {
@@ -327,8 +330,6 @@ export const TooltipButton = styled.button`
    border-radius: 50%;
    align-self: center;
    font-weight: bold;
-
-   display: none;
 
    @media only screen and ${device.sm} {
       display: none;

@@ -28,7 +28,7 @@ const CountdownTimer: React.FC = () => {
          if (newTimeLeft <= 0) {
             newTimeLeft = nextPostDate - Date.now();
             setTimeLeft(newTimeLeft);
-            setNewPostTitle('PARTIDAS'); // New Post Title here
+            setNewPostTitle('MIEDOSO'); // New Post Title here
             /* Next title to this one: PARTIDAS */
 
             clearInterval(interval);
