@@ -51,15 +51,21 @@ export default function Post14() {
             </ParagraphContainer>
             <Tooltip
                content={
-                  <ParagraphContainer>
-                     <Paragraph className="align-center">
-                        euthanasia now
+                  <ParagraphContainer id="tooltip-idiot">
+                     <Paragraph
+                        className="align-center"
+                        style={{
+                           background: '#f2f4f4',
+                           paddingTop: 0,
+                        }}
+                     >
+                        eutanasia ya
                         <Break />
-                        I can show you how
+                        Te puedo mostrar como
                         <Break />
-                        die is supreme law
+                        la muerte es la ley suprema
                         <Break />
-                        just like go to sleep
+                        como ir a dormir
                      </Paragraph>
                   </ParagraphContainer>
                }
